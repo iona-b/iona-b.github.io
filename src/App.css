@@ -1,13 +1,42 @@
-body {
-  background: #FAEBD7;
+html, body {
+  background: #FFFAF0;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
   text-align: center;
   font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
-  
+}
+
+#upper-navbar {
+  background: #FAEBD7;
+  height: 50px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+#navbar {
+  background: #FAEBD7;
+  height:50px;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+}
+
+.navbar-links {
+  margin-top: 20px;
 }
 
 .h1 {
   font-weight: 400;
-  font-size: 50px;
+  font-size: 30px;
+  margin: 0px;
+}
+
+.h2 {
+  font-size: 15px;
+  margin: 0px;
 }
 
 #under-construction {

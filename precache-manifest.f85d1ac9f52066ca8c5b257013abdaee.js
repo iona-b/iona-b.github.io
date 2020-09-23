@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e7e98d630b31a5cf12dc311d419ba9bc",
+    "revision": "c831003fe727971b41bc4d4b6bcf2f31",
     "url": "/index.html"
   },
   {
-    "revision": "e9f1762d25f0e08b1097",
-    "url": "/static/css/main.ec2b6102.chunk.css"
+    "revision": "cc37f74ac9114c6381f7",
+    "url": "/static/css/main.bf1daf41.chunk.css"
   },
   {
     "revision": "3990a172276b1b411235",
@@ -16,11 +16,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.9e493013.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e9f1762d25f0e08b1097",
-    "url": "/static/js/main.1e0b648a.chunk.js"
+    "revision": "cc37f74ac9114c6381f7",
+    "url": "/static/js/main.bd7433e2.chunk.js"
   },
   {
     "revision": "237e891a3ffba5731789",
     "url": "/static/js/runtime-main.b6e4a93e.js"
+  },
+  {
+    "revision": "075b307cf3dc49d293d4bd457ae16381",
+    "url": "/static/media/watercolour-texture-background.075b307c.png"
   }
 ]);

@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Project() {
+function Projects() {
 
   return (
 
@@ -11,4 +11,4 @@ function Project() {
   
 }
 
-export default Project;
+export default Projects;

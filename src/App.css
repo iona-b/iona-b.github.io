@@ -7,7 +7,7 @@ html, body {
   text-align: center;
   font-family: prestige-elite-std, monospace;
   ;
-  color: black;
+  color: #383838;
 }
 
 #background {
@@ -28,6 +28,10 @@ html, body {
   margin-top: 20px;
   text-decoration: none;
   color: black;
+}
+
+.navbar-links:hover {
+  color: yellow;
 }
 
 .h1 {

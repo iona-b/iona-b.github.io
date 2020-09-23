@@ -5,6 +5,7 @@ import About from './components/About'
 import Home from './components/Home'
 import Projects from './components/Projects'
 import Resume from './components/Resume'
+import Contact from './components/Contact'
 import NotFound from './components/NotFound'
 
 function App() {
@@ -13,8 +14,9 @@ function App() {
       <img src={require("./media/watercolour-texture-background.png")} alt='' id="background" />
       <div id="navbar">
         <NavLink to='/about' exact className="navbar-links" >About</NavLink>
-        <NavLink to='/projects' exact className="navbar-links" >Projects</NavLink>
         <NavLink to='/resume' exact className="navbar-links" >Resume</NavLink>
+        <NavLink to='/projects' exact className="navbar-links" >Projects</NavLink>
+        <NavLink to='/contact' exact className="navbar-links" >Contact</NavLink>
       </div >
 
       <div id="under-construction-div" >
@@ -32,6 +34,7 @@ function App() {
         <Route exact path='/about' component={About} />
         <Route exact path='/projects' component={Projects} />
         <Route exact path='/resume' component={Resume} />
+        <Route exact path='/contact' component={Contact} />
         <Route component={NotFound}/>
       </Switch>
     </div>

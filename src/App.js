@@ -1,11 +1,11 @@
 import React from 'react';
 import {Route, Switch, NavLink, Link} from 'react-router-dom'
 import './App.css';
-import About from './components/About'
-import Home from './components/Home'
-import Projects from './components/Projects'
-import Resume from './components/Resume'
-import Contact from './components/Contact'
+import AboutContainer from './containers/AboutContainer'
+import Home from './containers/Home'
+import ProjectsContainer from './containers/ProjectsContainer'
+import ResumeContainer from './containers/ResumeContainer'
+import Contact from './containers/ContactContainer'
 import NotFound from './components/NotFound'
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
 
       <div id="navbar">
         <NavLink to='/about' exact className="navbar-links" >About</NavLink>
-        <NavLink to='/resume' exact className="navbar-links" >Resume</NavLink>
+        <NavLink to='/resume' exact className="navbar-links" >Résumé</NavLink>
         <NavLink to='/projects' exact className="navbar-links" >Projects</NavLink>
         <NavLink to='/contact' exact className="navbar-links" >Contact</NavLink>
       </div >
@@ -41,9 +41,9 @@ function App() {
 
       <Switch>
         <Route exact path='/' component={Home} />
-        <Route exact path='/about' component={About} />
-        <Route exact path='/projects' component={Projects} />
-        <Route exact path='/resume' component={Resume} />
+        <Route exact path='/about' component={AboutContainer} />
+        <Route exact path='/projects' component={ProjectsContainer} />
+        <Route exact path='/resume' component={ResumeContainer} />
         <Route exact path='/contact' component={Contact} />
         <Route component={NotFound}/>
       </Switch>

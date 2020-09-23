@@ -1,11 +1,13 @@
 html, body {
-  background: #FFFAF0;
+  /* background: rgb(244, 194, 194); */
   height: 100%;
   width: 100%;
   padding: 0;
   margin: 0;
   text-align: center;
-  font-family: Lato,"sans-serif";
+  font-family: prestige-elite-std, monospace;
+  ;
+  color: black;
 }
 
 #background {
@@ -13,26 +15,19 @@ html, body {
   height: 100%;
 }
 
-#upper-navbar {
-  height: 50px;
-  position: absolute;
-  width: 100%;
-  top: 0;
-  z-index: 100;
-}
-
 #navbar {
   height:50px;
   position: absolute;
   width: 100%;
   display: flex;
-  top: 50px;
+  top: 0px;
   justify-content: space-evenly;
 }
 
 .navbar-links {
   margin-top: 20px;
   text-decoration: none;
+  color: black;
 }
 
 .h1 {

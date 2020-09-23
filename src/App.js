@@ -9,9 +9,17 @@ import Contact from './components/Contact'
 import NotFound from './components/NotFound'
 
 function App() {
+
   return (
+
     <div className="homepage">
-      <img src={require("./media/watercolour-texture-background.png")} alt='' id="background" />
+
+      {/* <img src={require("./media/watercolour-texture-background.png")} alt='' id="background" /> */}
+
+      <NavLink to='/' exact className="navbar-links" >
+          <img src={require("./media/logo.png")} alt='' id="logo" />
+      </NavLink>
+
       <div id="navbar">
         <NavLink to='/about' exact className="navbar-links" >About</NavLink>
         <NavLink to='/resume' exact className="navbar-links" >Resume</NavLink>
@@ -19,14 +27,16 @@ function App() {
         <NavLink to='/contact' exact className="navbar-links" >Contact</NavLink>
       </div >
 
-      <div id="under-construction-div" >
-        <h1 className="h1" >Iona Brabender</h1>
-        <h2 className="h2" >Full-Stack Software Engineer | Ruby on Rails, JavaScript, React, Redux</h2>
-        <br></br>
-        <a href="https://github.com/iona-b" className="navbar-links" >GitHub</a><br></br>
-        <a href="https://www.linkedin.com/in/iona-brabender" className="navbar-links" >LinkedIn</a><br></br>
-        <a href="https://dev.to/ionab" className="navbar-links" >Blog</a>
-        <h1 id="under-construction" >Under Construction</h1>
+      <div id="social-links-div">
+        <a href="https://github.com/iona-b" className="navbar-links" >
+          <img src={require("./media/github-icon.svg")} alt='' className="icons" />
+        </a><br></br>
+        <a href="https://www.linkedin.com/in/iona-brabender" className="navbar-links" >
+          <img src={require("./media/linkedin-icon.svg")} alt='' className="icons" />
+        </a><br></br>
+        <a href="https://dev.to/ionab" className="navbar-links" >
+          <img src={require("./media/dev.to-icon.svg")} alt='' className="icons" />
+        </a>
       </div>     
 
       <Switch>
@@ -37,10 +47,11 @@ function App() {
         <Route exact path='/contact' component={Contact} />
         <Route component={NotFound}/>
       </Switch>
+
     </div>
 
-
   );
+
 }
 
 export default App;

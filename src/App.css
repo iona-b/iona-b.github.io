@@ -1,12 +1,13 @@
+/* Body Styling */
+
 html, body {
-  /* background: rgb(244, 194, 194); */
+  background: #ffde59;
   height: 100%;
   width: 100%;
   padding: 0;
   margin: 0;
   text-align: center;
   font-family: prestige-elite-std, monospace;
-  ;
   color: #383838;
 }
 
@@ -14,6 +15,9 @@ html, body {
   width: 100%;
   height: 100%;
 }
+
+
+/* Nav Bar Styling */
 
 #navbar {
   height:50px;
@@ -28,29 +32,71 @@ html, body {
   margin-top: 20px;
   text-decoration: none;
   color: black;
+  font-weight: 540;
 }
 
 .navbar-links:hover {
-  color: yellow;
+  opacity: 50%
 }
 
+
+/* General Text Styling */
+
 .h1 {
-  font-weight: 400;
-  font-size: 100px;
+  font-weight: 600;
+  font-size: 150px;
   margin: 0px;
+  font-family: "Calibre","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
 }
 
 .h2 {
-  font-size: 30px;
+  font-size: 70px;
   margin: 0px;
-}
-#under-construction-div {
-  position: absolute;
-  top: 200px;
-  width: 100%
+  font-family: "Calibre","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
 }
 
-#under-construction {
-  font-weight: 400;
-  font-size: 80px;
+.p {
+  font-size: 30px;
+  margin: 0px;
+  font-family: "Calibre","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+}
+
+#hi-there {
+  font-family: prestige-elite-std, monospace;
+}
+
+
+/* General Button Styling */
+
+.icons {
+  width: 35px;
+  margin-top: 30px;
+}
+
+.icons:hover {
+  opacity: 50%;
+}
+
+#social-links-div {
+  position: absolute;
+  left: 30px;
+  bottom: 100px;
+}
+
+#logo {
+  width: 75px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+
+/* Home Styling */
+
+#home-div {
+  position: absolute;
+  top: 200px;
+  width: 100%;
+  text-align: left;
+  margin-left: 200px;
 }

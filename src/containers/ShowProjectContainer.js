@@ -5,29 +5,37 @@ import Gandr from '../components/Gandr'
 
 function ShowProjectContainer(props) {
 
+  const handleChangeCurrentlyShowing = (event) => {
+    let projectName = event.target.name
+    props.handleChangeCurrentlyShowing(projectName)
+  }
+
   return (
 
-    <div className="components" >
+    <div >
 
       {props.currentlyShowing === "AlwaysBalanced" ? 
-        <div className="containers" >
+        <div className="components project-containers" >
           <AlwaysBalanced  />
+          <button className="buttons" name="None" onClick={handleChangeCurrentlyShowing} >back</button>
         </div>
         :
         null
       }
 
       {props.currentlyShowing === "FruitQuest" ? 
-        <div className="containers" >
+        <div className="components project-containers" >
           <FruitQuest  />
+          <button className="buttons" name="None" onClick={handleChangeCurrentlyShowing} >back</button>
         </div>
         :
         null
       }
 
       {props.currentlyShowing === "Gandr" ? 
-        <div className="containers" >
+        <div className="components project-containers" >
           <Gandr  />
+          <button className="buttons" name="None" onClick={handleChangeCurrentlyShowing} >back</button>
         </div>
         :
         null

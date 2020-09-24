@@ -6,7 +6,7 @@ function Gandr() {
 
   return (
 
-    <div >
+    <div className="containers project-containers">
       <ReactPlayer className="react-player"
         playing
         controls={true}

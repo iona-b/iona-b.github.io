@@ -1,4 +1,5 @@
 import React from 'react';
+import Resume from '../components/Resume'
 
 function ResumeContainer() {
 
@@ -6,6 +7,7 @@ function ResumeContainer() {
 
     <div className="containers" >
         <h2 className="h2" >Résumé</h2>
+        <Resume />
     </div>
     
   );

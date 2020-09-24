@@ -9,6 +9,7 @@ class ProjectsContainer extends React.Component{
   }
 
   handleChangeCurrentlyShowing = (projectName) => {
+    console.log("HERE")
     this.setState ({
       currentlyShowing: projectName
     })
@@ -27,7 +28,7 @@ class ProjectsContainer extends React.Component{
           </div>
           :
           <div className="containers" >
-            <ShowProjectContainer currentlyShowing={this.state.currentlyShowing} />
+            <ShowProjectContainer currentlyShowing={this.state.currentlyShowing} handleChangeCurrentlyShowing={this.handleChangeCurrentlyShowing} />
           </div>
         }
 

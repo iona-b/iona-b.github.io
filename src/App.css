@@ -126,6 +126,13 @@ html, body {
   cursor: pointer;
 }
 
+.about-buttons {
+  width: 75px;
+  height: 30px;
+  padding: 0px;
+  margin: 0px;
+}
+
 
 /* Home Styling */
 
@@ -140,11 +147,6 @@ html, body {
 
 /* About Styling */
 
-#about-div {
-  /* align-content: stretch; */
-  /* position: relative; */
-}
-
 .p#about {
   font-size: 25px;
   text-align: justify;
@@ -158,6 +160,26 @@ html, body {
   margin-top: 10px;
   margin-left: 50px;
   margin-bottom: 50px;
+}
+
+#photo-grid-div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.photo-grid-photos {
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 2%;
+  width: 20%;
+  border-radius: 10px;
+}
+
+.photo-grid-photos:hover {
+  opacity: 80%;
+  cursor: pointer;
 }
 
 /* Demo Styling */

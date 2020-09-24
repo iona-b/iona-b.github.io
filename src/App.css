@@ -65,20 +65,20 @@ html, body {
 
 .h1 {
   font-weight: 600;
-  font-size: 150px;
+  font-size: 120px;
   margin: 0px;
   font-family: "Calibre","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
 }
 
 .h2 {
-  font-size: 70px;
+  font-size: 60px;
   margin: 0px;
   font-family: "Calibre","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
 }
 
 .p {
   font-size: 25px;
-  margin: 0px;
+  margin-top: 0px;
   font-family: prestige-elite-std, monospace;
 }
 
@@ -122,16 +122,20 @@ html, body {
   height: 50px;
   border: solid;
   border-color: #383838;
-  border-radius: 10px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 
 /* Home Styling */
 
 #home-div {
-  margin-top: 100px;
   text-align: left;
   margin-left: 200px;
+}
+
+#hi-there {
+  margin-left: 10px;
 }
 
 /* About Styling */
@@ -151,6 +155,7 @@ html, body {
   height: 35%;
   border-radius: 10px;
   float: right;
+  margin-top: 10px;
   margin-left: 50px;
   margin-bottom: 50px;
 }

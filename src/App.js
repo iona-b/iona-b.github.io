@@ -1,8 +1,8 @@
 import React from 'react';
-import {Route, Switch, NavLink, Link} from 'react-router-dom'
+import {Route, Switch, NavLink} from 'react-router-dom'
 import './App.css';
 import AboutContainer from './containers/AboutContainer'
-import Home from './containers/Home'
+import HomeContainer from './containers/HomeContainer'
 import ProjectsContainer from './containers/ProjectsContainer'
 import ResumeContainer from './containers/ResumeContainer'
 import Contact from './containers/ContactContainer'
@@ -42,7 +42,7 @@ function App() {
       </div>     
 
       <Switch>
-        <Route exact path='/' component={Home} />
+        <Route exact path='/' component={HomeContainer} />
         <Route exact path='/about' component={AboutContainer} />
         <Route exact path='/projects' component={ProjectsContainer} />
         <Route exact path='/resume' component={ResumeContainer} />

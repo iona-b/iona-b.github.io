@@ -1,10 +1,17 @@
 import React from 'react';
 import Project from '../components/Project'
+import ShowProjectContainer from '../containers/ShowProjectContainer'
 
 class ProjectsContainer extends React.Component{
 
   state = {
-    currentlyShowing: 0
+    currentlyShowing: "None"
+  }
+
+  handleChangeCurrentlyShowing = (projectName) => {
+    this.setState ({
+      currentlyShowing: projectName
+    })
   }
 
   render () {
@@ -13,14 +20,14 @@ class ProjectsContainer extends React.Component{
 
       <div id="projects-div">
 
-        {this.state.currentlyShowing === 0 ? 
+        {this.state.currentlyShowing === "None" ? 
           <div className="containers" >
             <h2 className="h2" >Projects</h2>
-            <Project />
+            <Project handleChangeCurrentlyShowing={this.handleChangeCurrentlyShowing} />
           </div>
           :
-          <div>
-
+          <div className="containers" >
+            <ShowProjectContainer currentlyShowing={this.state.currentlyShowing} />
           </div>
         }
 

@@ -2,7 +2,7 @@ import React from 'react';
 import ReactPlayer from 'react-player'
 import AlwaysBalancedDemo from '../media/always-balanced-demo.mp4'
 
-function AlwaysBalanced() {
+function Gandr() {
 
   return (
 
@@ -20,4 +20,4 @@ function AlwaysBalanced() {
   
 }
 
-export default AlwaysBalanced;
+export default Gandr;

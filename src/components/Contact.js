@@ -5,7 +5,7 @@ function Contact() {
   return (
 
     <div className="components" >
-      <p className="p" >I'm currently open to work, so please reach out if you are looking for an enthusiastic and creative front-end developer! </p>
+      <p className="p" >I'm currently open to work, so please reach out if you are looking for an enthusiastic and creative front-end developer! </p><br></br>
       <div id="contact-div">
         <a href="https://github.com/iona-b" >
           <img src={require("../media/github-icon.svg")} alt='' className="contact-icons" />

@@ -7,7 +7,7 @@ html, body {
   padding: 0;
   margin: 0;
   text-align: center;
-  font-family: prestige-elite-std, monospace;
+  font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono", monospace;
   color: #383838;
 }
 
@@ -23,16 +23,16 @@ html, body {
   height:50px;
   position: absolute;
   width: 100%;
-  display: flex;
   top: 0px;
-  justify-content: space-evenly;
 }
 
 .navbar-links {
   margin-top: 20px;
+  margin-right: 80px;
   text-decoration: none;
-  color: black;
+  color: #383838;
   font-weight: 540;
+  float: right;
 }
 
 .navbar-links:hover {
@@ -45,8 +45,19 @@ html, body {
 .containers {
   position: absolute;
   top: 150px;
-  width: 100%;
+  width: 94%;
+  margin-left: 3%;
+  margin-right: 3%;
   text-align: center;
+}
+
+
+/* General Component Styling  */
+
+.components {
+  margin-top: 50px;
+  margin-left: 300px;
+  margin-right: 300px;
 }
 
 
@@ -68,11 +79,11 @@ html, body {
 .p {
   font-size: 30px;
   margin: 0px;
-  font-family: "Calibre","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+  font-family: prestige-elite-std, monospace;
 }
 
-#hi-there {
-  font-family: prestige-elite-std, monospace;
+.p#intro {
+  font-family: "Calibre","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
 }
 
 
@@ -94,10 +105,10 @@ html, body {
 }
 
 #logo {
-  width: 75px;
+  width: 100px;
   position: absolute;
-  left: 10px;
-  top: 10px;
+  left: 30px;
+  top: 30px;
 }
 
 
@@ -109,8 +120,79 @@ html, body {
   margin-left: 200px;
 }
 
+/* About Styling */
+
+#about-div {
+  display: flex;
+}
+
+.p#about {
+  font-size: 25px;
+  margin-right: 40px;
+  text-align: justify;
+}
+
+#about-p {
+  float: left;
+}
+
+#profile-picture {
+  width: 400px;
+  height: 400px;
+  border-radius: 10px;
+}
+
+#profile-picture-div {
+  float: right;
+}
 
 /* Demo Styling */
 .react-player {
   position: absolute;
+}
+
+#projects-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.project-divs {
+  /* border: solid; */
+  border-radius: 5px;
+  margin: 2%;
+  background:#f8f4e3;
+}
+
+.project-div-headers {
+  color: #383838;
+}
+
+.project-screenshots {
+  width: 90%;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.project-screenshots:hover {
+  opacity: 80%;
+  cursor: pointer;
+}
+
+/* Contact Styling  */
+
+.contact-icons {
+  width: 100px;
+}
+
+.contact-icons:hover {
+  opacity: 50%;
+  cursor: pointer;
+}
+
+#contact-div {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 100px;
+  padding-right: 100px;
 }

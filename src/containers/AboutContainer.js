@@ -1,11 +1,13 @@
 import React from 'react';
+import About from '../components/About'
 
 function AboutContainer() {
 
   return (
 
-    <div className="containers" >
-        <h2 className="h2" >About</h2>
+    <div className="containers" id="about-container">
+        <h2 className="h2" >Hello!</h2>
+        <About />
     </div>
     
   );

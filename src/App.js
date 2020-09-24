@@ -14,28 +14,30 @@ function App() {
 
     <div className="homepage">
 
-      {/* <img src={require("./media/watercolour-texture-background.png")} alt='' id="background" /> */}
-
       <NavLink to='/' exact className="navbar-links" >
           <img src={require("./media/logo.png")} alt='' id="logo" />
       </NavLink>
 
-      <div id="navbar">
-        <NavLink to='/about' exact className="navbar-links" >About</NavLink>
-        <NavLink to='/resume' exact className="navbar-links" >Résumé</NavLink>
-        <NavLink to='/projects' exact className="navbar-links" >Projects</NavLink>
-        <NavLink to='/contact' exact className="navbar-links" >Contact</NavLink>
+      <div id="navbar">        
+        <NavLink to='/contact' exact className="navbar-links" >05. Contact</NavLink>
+        <NavLink to='/about' exact className="navbar-links" >04. About</NavLink>
+        <NavLink to='/resume' exact className="navbar-links" >03. Résumé</NavLink>
+        <NavLink to='/projects' exact className="navbar-links" >02. Projects</NavLink>
+        <NavLink to='/' exact className="navbar-links" >01. Home</NavLink>
       </div >
 
       <div id="social-links-div">
-        <a href="https://github.com/iona-b" className="navbar-links" >
+        <a href="https://github.com/iona-b" >
           <img src={require("./media/github-icon.svg")} alt='' className="icons" />
         </a><br></br>
-        <a href="https://www.linkedin.com/in/iona-brabender" className="navbar-links" >
+        <a href="https://www.linkedin.com/in/iona-brabender" >
           <img src={require("./media/linkedin-icon.svg")} alt='' className="icons" />
         </a><br></br>
-        <a href="https://dev.to/ionab" className="navbar-links" >
+        <a href="https://dev.to/ionab" >
           <img src={require("./media/dev.to-icon.svg")} alt='' className="icons" />
+        </a><br></br>
+        <a href={`mailto:ionabrabender@gmail.com`} >
+          <img src={require("./media/email.svg")} alt='' className="icons" />
         </a>
       </div>     
 

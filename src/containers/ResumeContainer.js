@@ -18,7 +18,7 @@ class ResumeContainer extends React.Component {
 
     return (
 
-      <div>
+      <div className="one-second-animation" >
 
         {this.state.currentlyShowing === "None" ?
           <div className="containers" >

@@ -19,7 +19,7 @@ class AboutContainer extends React.Component {
 
     return (
 
-      <div className="containers" id="about-container">
+      <div className="containers one-second-animation" id="about-container">
           <h2 className="h2" >Hello!</h2>
           {this.state.showing === "About"
             ?

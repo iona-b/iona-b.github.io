@@ -4,7 +4,7 @@ function Skills() {
 
   return (
 
-    <div>
+    <div className="one-second-animation" >
         <h2>Skills</h2>
     </div>
     

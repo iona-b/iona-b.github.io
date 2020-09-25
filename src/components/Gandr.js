@@ -18,7 +18,7 @@ class Gandr extends React.Component {
 
     return (
 
-      <div >
+      <div className="one-second-animation" >
         <h2 className="project-div-headers" >Always Balanced</h2>
         {this.state.aboutShowing === true ? 
           <div>

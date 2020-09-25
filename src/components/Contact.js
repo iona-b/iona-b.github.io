@@ -4,7 +4,7 @@ function Contact() {
 
   return (
 
-    <div className="components" >
+    <div className="components one-second-animation" >
       <p className="p" >I'm currently open to work, so please reach out if you are looking for an enthusiastic and creative developer! </p><br></br>
       <div id="contact-div">
         <a href="https://github.com/iona-b" >

@@ -4,7 +4,7 @@ function WorkExperience() {
 
   return (
 
-    <div>
+    <div className="one-second-animation" >
         <h2>Work Experience</h2>
     </div>
 

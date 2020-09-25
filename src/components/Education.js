@@ -4,7 +4,7 @@ function Education() {
 
   return (
 
-    <div>
+    <div className="one-second-animation" >
         <h2>Education</h2>
     </div>
     

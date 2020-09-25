@@ -18,7 +18,7 @@ class ProjectsContainer extends React.Component{
 
     return (
 
-      <div id="projects-div">
+      <div id="projects-div" className="one-second-animation" >
 
         {this.state.currentlyShowing === "None" ? 
           <div className="containers" >

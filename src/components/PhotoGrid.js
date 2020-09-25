@@ -4,7 +4,7 @@ function PhotoGrid() {
 
   return (
 
-    <div className="components" id="photo-grid-div" >
+    <div className="components one-second-animation" id="photo-grid-div" >
         {/* Need to get Scotland image */}
         <img src={require("../media/ghent.jpeg")} alt='' className="photo-grid-photos" />
         <img src={require("../media/ghent.jpeg")} alt='' className="photo-grid-photos" />

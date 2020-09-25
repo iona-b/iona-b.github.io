@@ -14,11 +14,10 @@ function App() {
 
     <div className="homepage">
 
-      <NavLink to='/' exact className="navbar-links" >
-          <img src={require("./media/logo.png")} alt='' id="logo" />
-      </NavLink>
-
-      <div id="navbar">        
+      <div className="ten-second-animation" id="navbar">   
+        <NavLink to='/' exact className="navbar-links" >
+            <img src={require("./media/logo.png")} alt='' id="logo" />
+        </NavLink>     
         <NavLink to='/contact' exact className="navbar-links" >05. Contact</NavLink>
         <NavLink to='/about' exact className="navbar-links" >04. About</NavLink>
         <NavLink to='/resume' exact className="navbar-links" >03. Résumé</NavLink>
@@ -26,7 +25,7 @@ function App() {
         <NavLink to='/' exact className="navbar-links" >01. Home</NavLink>
       </div >
 
-      <div id="social-links-div">
+      <div className="ten-second-animation" id="social-links-div">
         <a href="https://github.com/iona-b" >
           <img src={require("./media/github-icon.svg")} alt='' className="icons" />
         </a><br></br>

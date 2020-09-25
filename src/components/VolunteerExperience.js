@@ -4,7 +4,7 @@ function VolunteerExperience() {
 
   return (
 
-    <div>
+    <div className="one-second-animation" >
         <h2>Volunteer Experience</h2>
     </div>
     

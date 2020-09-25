@@ -1,16 +1,41 @@
 import React from 'react';
 import Resume from '../components/Resume'
 
-function ResumeContainer() {
+class ResumeContainer extends React.Component {
 
-  return (
+  state = {
+    currentlyShowing: "None"
+  }
 
-    <div className="containers" >
-        <h2 className="h2" >Résumé</h2>
-        <Resume />
-    </div>
-    
-  );
+  handleChangeCurrentlyShowing = (projectName) => {
+    this.setState ({
+      currentlyShowing: projectName
+    })
+  }
+
+  render() {
+
+    return (
+
+      <div>
+
+        {this.state.currentlyShowing ?
+          <div className="containers" >
+            <h2 className="h2" >Résumé</h2>
+            <Resume handleChangeCurrentlyShowing={this.handleChangeCurrentlyShowing} />
+          </div>
+          :
+          <div className="containers" >
+
+          </div>
+        }
+
+
+      </div>
+      
+    );
+
+  }
   
 }
 

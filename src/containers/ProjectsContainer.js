@@ -9,7 +9,6 @@ class ProjectsContainer extends React.Component{
   }
 
   handleChangeCurrentlyShowing = (projectName) => {
-    console.log("HERE")
     this.setState ({
       currentlyShowing: projectName
     })

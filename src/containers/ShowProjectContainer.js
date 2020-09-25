@@ -17,7 +17,7 @@ function ShowProjectContainer(props) {
       {props.currentlyShowing === "AlwaysBalanced" ? 
         <div className="components project-containers" >
           <AlwaysBalanced  />
-          <button className="buttons" name="None" onClick={handleChangeCurrentlyShowing} >back</button>
+          <button className="buttons close-buttons" name="None" onClick={handleChangeCurrentlyShowing} >✖</button>
         </div>
         :
         null
@@ -26,7 +26,7 @@ function ShowProjectContainer(props) {
       {props.currentlyShowing === "FruitQuest" ? 
         <div className="components project-containers" >
           <FruitQuest  />
-          <button className="buttons" name="None" onClick={handleChangeCurrentlyShowing} >back</button>
+          <button className="buttons close-buttons" name="None" onClick={handleChangeCurrentlyShowing} >✖</button>
         </div>
         :
         null
@@ -35,7 +35,7 @@ function ShowProjectContainer(props) {
       {props.currentlyShowing === "Gandr" ? 
         <div className="components project-containers" >
           <Gandr  />
-          <button className="buttons" name="None" onClick={handleChangeCurrentlyShowing} >back</button>
+          <button className="buttons close-buttons" name="None" onClick={handleChangeCurrentlyShowing} >✖</button>
         </div>
         :
         null

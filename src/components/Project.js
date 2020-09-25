@@ -3,13 +3,11 @@ import React from 'react';
 function Project(props) {
 
   const handleGetName = (event) => {
-    console.log(event.target.id)
     let projectName = event.target.id
     handleChangeCurrentlyShowing(projectName)
   }
 
   const handleChangeCurrentlyShowing = (projectName) => {
-    console.log(projectName)
     props.handleChangeCurrentlyShowing(projectName)
   }
 

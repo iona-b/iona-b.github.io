@@ -14,6 +14,7 @@ function PhotoGrid() {
         <img src={require("../media/tahoe.jpeg")} alt='' className="photo-grid-photos" />
         <img src={require("../media/bodega-bay.jpeg")} alt='' className="photo-grid-photos" />
         <img src={require("../media/pavlova.jpeg")} alt='' className="photo-grid-photos" />
+        <img src={require("../media/pavlova.jpeg")} alt='' className="photo-grid-photos" />
     </div>
     
   );

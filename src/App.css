@@ -123,7 +123,7 @@ html, body {
 }
 
 .h4 {
-  margin-top: 0%;
+  margin: 0%;
 }
 
 .p {
@@ -405,11 +405,12 @@ html, body {
   height: 40%;
 }
 
-.work-experience-bullet-points-div {
+.resume-bullet-points-div {
   text-align: justify;
+  margin: 5%;
 }
 
-.work-experience-bullet-points {
+.resume-bullet-points {
   margin: 0.5%;
 }
 
@@ -420,11 +421,20 @@ html, body {
   justify-content: center;
 }
 
-.individual-work-experience-divs {
+.individual-resume-divs {
   margin-top: 5%;
   border: solid;
   border-radius: 10px;
   padding: 2%;
+}
+
+.indented {
+  text-decoration: none;
+  color: black;
+}
+
+.resume-bullet-points.indented {
+  margin-left: 5%;
 }
 
 /* Animation Styling  */

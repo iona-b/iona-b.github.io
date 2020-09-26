@@ -30,7 +30,7 @@ class Education extends React.Component {
             <h3 className="h3" >Flatiron School</h3>
             <h4 className="h4" >San Francisco, USA</h4>
             <h4 className="h4" >2020</h4>
-            <button name="showFlatironSchool" onClick={this.handleExpand}>Show More</button>
+            <button name="showFlatironSchool" className="buttons expand-buttons" onClick={this.handleExpand}>{this.state.showFlatironSchool === false ? "+ more" : "- less"} </button>
             {this.state.showFlatironSchool === true ? 
               <div className="resume-bullet-points-div" >
                 <p className="resume-bullet-points" >• Languages and Technologies: </p>
@@ -72,7 +72,7 @@ class Education extends React.Component {
             <h3 className="h3" >Vrije Universiteit Brussel</h3>
             <h4 className="h4" >Brussels, Belgium</h4>
             <h4 className="h4" >2016-2017</h4>
-            <button name="showVrijeUniversiteitBrussel" onClick={this.handleExpand}>Show More</button>
+            <button name="showVrijeUniversiteitBrussel" className="buttons expand-buttons" onClick={this.handleExpand}>{this.state.showVrijeUniversiteitBrussel === false ? "+ more" : "- less"} </button>
             {this.state.showVrijeUniversiteitBrussel === true ? 
               <div className="resume-bullet-points-div" >
                 <p className="resume-bullet-points" >• Archiving theory, history, and methodology.</p>
@@ -89,7 +89,7 @@ class Education extends React.Component {
             <h3 className="h3" >Ghent University Centre for Language</h3>
             <h4 className="h4" >Ghent, Belgium</h4>
             <h4 className="h4" >2013-2014</h4>
-            <button name="showUniversityCentreForLanguage" onClick={this.handleExpand}>Show More</button>
+            <button name="showUniversityCentreForLanguage" className="buttons expand-buttons" onClick={this.handleExpand}>{this.state.showUniversityCentreForLanguage === false ? "+ more" : "- less"} </button>
             {this.state.showUniversityCentreForLanguage === true ? 
               <div className="resume-bullet-points-div" >
                 <p className="resume-bullet-points" >• Immersive course in the study of the Dutch language to a fluent level.</p>
@@ -104,7 +104,7 @@ class Education extends React.Component {
             <h3 className="h3" >University of St Andrews</h3>
             <h4 className="h4" >St Andrews, UK</h4>
             <h4 className="h4" >2012-2013</h4>
-            <button name="showUniversityOfStAndrews" onClick={this.handleExpand}>Show More</button>
+            <button name="showUniversityOfStAndrews" className="buttons expand-buttons" onClick={this.handleExpand}>{this.state.showUniversityOfStAndrews === false ? "+ more" : "- less"} </button>
             {this.state.showUniversityOfStAndrews === true ? 
               <div className="resume-bullet-points-div" >
                 <p className="resume-bullet-points" >• Exhibition Planning: As part of a team, I designed and created an exhibition at the prestigious British Golf Museum.</p>
@@ -121,7 +121,7 @@ class Education extends React.Component {
             <h3 className="h3" >University of Glasgow</h3>
             <h4 className="h4" >Glasgow, UK</h4>
             <h4 className="h4" >2008-2012</h4>
-            <button name="showUniversityOfGlasgow" onClick={this.handleExpand}>Show More</button>
+            <button name="showUniversityOfGlasgow" className="buttons expand-buttons" onClick={this.handleExpand}>{this.state.showUniversityOfGlasgow === false ? "+ more" : "- less"} </button>
             {this.state.showUniversityOfGlasgow === true ? 
               <div className="resume-bullet-points-div" >
                 <p className="resume-bullet-points" >• Study of both British and international history and politics.</p>

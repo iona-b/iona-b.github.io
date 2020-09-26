@@ -62,7 +62,7 @@ class App extends React.Component {
 
         <div className="homepage">
     
-          <div className="ten-second-animation" id="navbar">   
+          <div id="navbar">   
             <NavLink to='/' exact className="navbar-links" >
                 <img src={require("./media/logo.png")} alt='' id="logo" />
             </NavLink>     
@@ -73,7 +73,7 @@ class App extends React.Component {
             <NavLink to='/' exact className="navbar-links" >01. Home</NavLink>
           </div >
     
-          <div className="ten-second-animation" id="social-links-div">
+          <div id="social-links-div">
             <a href="https://github.com/iona-b" >
               <img src={require("./media/github-icon.svg")} alt='' className="icons" />
             </a><br></br>

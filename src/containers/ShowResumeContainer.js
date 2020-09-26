@@ -13,7 +13,7 @@ function ShowResumeContainer(props) {
 
   return (
 
-    <div className="one-second-animation" >
+    <div className="one-second-animation full-resume-divs" >
 
       {props.currentlyShowing === "Education" ? 
         <div className="components" >

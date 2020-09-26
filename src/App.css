@@ -15,7 +15,7 @@ html, body {
 /* Nav Bar Styling */
 
 #navbar {
-  height:50px;
+  height: 10%;
   position: fixed;
   width: 100%;
   top: 0px;
@@ -24,8 +24,8 @@ html, body {
 }
 
 .navbar-links {
-  margin-top: 40px;
-  margin-right: 40px;
+  margin-top: 2%;
+  margin-right: 3%;
   text-decoration: none;
   color: black;
   font-weight: 540;
@@ -93,6 +93,7 @@ html, body {
   margin-top: 5%;
   margin-left: 10%;
   margin-right: 10%;
+  width: 75%;
 }
 
 
@@ -109,6 +110,20 @@ html, body {
   font-size: 60px;
   margin: 0px;
   font-family: "Calibre","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+}
+
+.h2-standard {
+  font-size: 25px;
+  margin: 0px;
+}
+
+.h3 {
+  font-size: 20px;
+  margin: 0%;
+}
+
+.h4 {
+  margin-top: 0%;
 }
 
 .p {
@@ -209,11 +224,11 @@ html, body {
 }
 
 #menu-button {
-  background: none;
+  background: #ffde59;
   border: none;
   outline: none;
   font-size: 50px;
-  position: absolute;
+  position: fixed;
   top: 5%;
   right: 5%;
 }
@@ -387,18 +402,27 @@ html, body {
   height: 40%;
 }
 
-.expand {
-  font-weight: 800;
-  font-size: 20px;
-  color: black;  
-  height: 10%;
+.work-experience-bullet-points-div {
+  text-align: justify;
 }
 
-.expand:hover {
-  opacity: 50%;
-  cursor: pointer;
+.work-experience-bullet-points {
+  margin: 0.5%;
 }
 
+.full-resume-divs {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  justify-content: center;
+}
+
+.individual-work-experience-divs {
+  margin-top: 5%;
+  border: solid;
+  border-radius: 10px;
+  padding: 2%;
+}
 
 /* Animation Styling  */
 

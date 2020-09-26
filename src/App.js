@@ -103,11 +103,15 @@ class App extends React.Component {
 
         <div className="homepage" > 
 
+          <NavLink to='/' exact >
+            <img src={require("./media/logo.png")} alt='' id="logo" />
+          </NavLink>     
+
           <button id="menu-button" onClick={this.handleShowMenu}>
             ☰
           </button>
-
-          <div className="ten-second-animation" id="social-links-div">
+          
+          <div id="social-links-div">
             <a href="https://github.com/iona-b" >
               <img src={require("./media/github-icon.svg")} alt='' className="icons" />
             </a><br></br>

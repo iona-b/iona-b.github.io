@@ -91,9 +91,9 @@ html, body {
 
 .components {
   margin-top: 5%;
-  margin-left: 10%;
+  margin-left: 15%;
   margin-right: 10%;
-  width: 75%;
+  width: 70%;
 }
 
 
@@ -289,8 +289,10 @@ html, body {
 /* Demo Styling */
 
 #projects-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .project-divs {
@@ -302,6 +304,7 @@ html, body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 40%;
 }
 
 .project-div-headers {

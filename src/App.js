@@ -84,7 +84,7 @@ class App extends React.Component {
               <img src={require("./media/dev.to-icon.svg")} alt='' className="icons" />
             </a><br></br>
             <a href={`mailto:ionabrabender@gmail.com`} >
-              <img src={require("./media/email.svg")} alt='' className="icons" />
+              <img src={require("./media/send.png")} alt='' className="icons" />
             </a>
           </div>     
     

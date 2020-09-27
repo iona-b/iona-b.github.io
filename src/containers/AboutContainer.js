@@ -25,7 +25,7 @@ class AboutContainer extends React.Component {
             ?
             <div>
               <About />
-              <button className="buttons about-buttons" name="More" onClick={this.handleShowingChange} >Tell Me More!</button>
+              <button className="buttons about-buttons" name="More" onClick={this.handleShowingChange} >Still curious?</button>
             </div>
             : 
             <div>

@@ -17,7 +17,7 @@ function Contact() {
           <img src={require("../media/dev.to-icon.svg")} alt='' className="contact-icons" />
         </a><br></br>
         <a href={`mailto:ionabrabender@gmail.com`} >
-          <img src={require("../media/email.svg")} alt='' className="contact-icons" />
+          <img src={require("../media/send.png")} alt='' className="contact-icons" />
         </a>
       </div>
     </div>

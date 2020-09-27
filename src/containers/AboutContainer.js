@@ -25,12 +25,12 @@ class AboutContainer extends React.Component {
             ?
             <div>
               <About />
-              <button className="buttons about-buttons" name="More" onClick={this.handleShowingChange} >More</button>
+              <button className="buttons about-buttons" name="More" onClick={this.handleShowingChange} >Tell Me More!</button>
             </div>
             : 
             <div>
               <PhotoGrid />
-              <button className="buttons about-buttons" name="About" onClick={this.handleShowingChange}  >About</button>
+              <button className="buttons about-buttons" name="About" onClick={this.handleShowingChange}  >About Me</button>
             </div>
           }
       </div>

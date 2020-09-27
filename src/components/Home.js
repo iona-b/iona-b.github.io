@@ -5,7 +5,7 @@ function Home() {
 
   return (
 
-    <div className="components" id="home-div">
+    <div id="home-div">
       <p className="p one-second-animation" id="hi-there" >Hi there! I'm</p>
       <h1 className="h1 three-second-animation" >Iona Brabender</h1>
       <h2 className="h2 five-second-animation" >I'm a Software Engineer</h2>

@@ -17,8 +17,8 @@ function ShowResumeContainer(props) {
 
       {props.currentlyShowing === "Education" ? 
         <div className="components" >
+          <button className="buttons back-buttons" name="None" onClick={handleChangeCurrentlyShowing} >⇦</button>
           <Education  />
-          <button className="buttons" name="None" onClick={handleChangeCurrentlyShowing} >back</button>
         </div>
         :
         null
@@ -26,8 +26,8 @@ function ShowResumeContainer(props) {
 
       {props.currentlyShowing === "Skills" ? 
         <div className="components" >
+          <button className="buttons back-buttons" name="None" onClick={handleChangeCurrentlyShowing} >⇦</button>
           <Skills  />
-          <button className="buttons" name="None" onClick={handleChangeCurrentlyShowing} >back</button>
         </div>
         :
         null
@@ -35,8 +35,8 @@ function ShowResumeContainer(props) {
 
       {props.currentlyShowing === "VolunteerExperience" ? 
         <div className="components" >
+          <button className="buttons back-buttons" name="None" onClick={handleChangeCurrentlyShowing} >⇦</button>
           <VolunteerExperience  />
-          <button className="buttons" name="None" onClick={handleChangeCurrentlyShowing} >back</button>
         </div>
         :
         null
@@ -44,8 +44,8 @@ function ShowResumeContainer(props) {
 
       {props.currentlyShowing === "WorkExperience" ? 
         <div className="components" >
+          <button className="buttons back-buttons" name="None" onClick={handleChangeCurrentlyShowing} >⇦</button>
           <WorkExperience  />
-          <button className="buttons" name="None" onClick={handleChangeCurrentlyShowing} >back</button>
         </div>
         :
         null

@@ -6,11 +6,6 @@ import WorkExperience from '../components/WorkExperience'
 
 function ShowResumeContainer(props) {
 
-  const handleChangeCurrentlyShowing = (event) => {
-    let projectName = event.target.name
-    props.handleChangeCurrentlyShowing(projectName)
-  }
-
   return (
 
     <div className="one-second-animation full-resume-divs" >

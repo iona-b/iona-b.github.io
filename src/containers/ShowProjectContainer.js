@@ -5,11 +5,6 @@ import Gandr from '../components/Gandr'
 
 function ShowProjectContainer(props) {
 
-  const handleChangeCurrentlyShowing = (event) => {
-    let projectName = event.target.name
-    props.handleChangeCurrentlyShowing(projectName)
-  }
-
   return (
 
     <div className="one-second-animation outside-project-containers" >
@@ -25,7 +20,6 @@ function ShowProjectContainer(props) {
       {props.currentlyShowing === "FruitQuest" ? 
         <div className="components project-containers" >
           <FruitQuest  />
-          <button className="buttons close-buttons" name="None" onClick={handleChangeCurrentlyShowing} >✖</button>
         </div>
         :
         null
@@ -34,7 +28,6 @@ function ShowProjectContainer(props) {
       {props.currentlyShowing === "Gandr" ? 
         <div className="components project-containers" >
           <Gandr  />
-          <button className="buttons close-buttons" name="None" onClick={handleChangeCurrentlyShowing} >✖</button>
         </div>
         :
         null

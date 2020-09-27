@@ -23,7 +23,7 @@ function Project(props) {
 
       <div className="project-divs" id="FruitQuest" onClick={handleGetName} >
         <h2 className="project-div-headers" id="FruitQuest" >Fruit Quest</h2>
-        <p className="project-blurb" id="FruitQuest" >Fruit Quest is an game application created using a Rails backend and React frontend, in combination with the Phaser 3 game engine. The aim of the game is to collect as many pieces of fruit as possible. </p>
+        <p className="project-blurb" id="FruitQuest" >Fruit Quest is a game application created using a Rails backend and React frontend, in combination with the Phaser 3 game engine. The aim of the game is to collect as many pieces of fruit as possible. </p>
         <img src={require("../media/fruit-quest-screenshot.png")} alt='' className="project-screenshots" id="FruitQuest" />
       </div>
 

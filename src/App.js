@@ -48,6 +48,7 @@ class App extends React.Component {
     this.setState ({
       showMenu: !this.state.showMenu
     })
+    this.handleForceUpdateTrue()
   }
 
   handleForceUpdateTrue = () => {
@@ -144,9 +145,9 @@ class App extends React.Component {
     
           <Switch>
             <Route exact path='/' component={HomeContainer} />
-            <Route exact path='/about' component={AboutContainer} />
+            <Route exact path='/about' component={this.renderAboutContainer} />
             <Route exact path='/projects' component={this.renderProjectsContainer} />
-            <Route exact path='/resume' component={ResumeContainer} />
+            <Route exact path='/resume' component={this.renderResumeContainer} />
             <Route exact path='/contact' component={Contact} />
             <Route component={NotFound}/>
           </Switch>
@@ -166,13 +167,13 @@ class App extends React.Component {
               <NavLink to='/' exact className="menu-links" onClick={this.handleShowMenu} >01. Home</NavLink>
             </div> 
             <div className="menu-link-divs" > 
-              <NavLink to='/projects' exact className="menu-links"  onClick={this.handleShowMenu}>02. Projects</NavLink>
+              <NavLink to='/projects' exact className="menu-links"  onClick={this.handleShowMenu} >02. Projects</NavLink>
             </div> 
             <div className="menu-link-divs" > 
-              <NavLink to='/resume' exact className="menu-links"  onClick={this.handleShowMenu}>03. Résumé</NavLink>
+              <NavLink to='/resume' exact className="menu-links"  onClick={this.handleShowMenu} >03. Résumé</NavLink>
             </div> 
             <div className="menu-link-divs" > 
-              <NavLink to='/about' exact className="menu-links"  onClick={this.handleShowMenu}>04. About</NavLink>
+              <NavLink to='/about' exact className="menu-links"  onClick={this.handleShowMenu} >04. About</NavLink>
             </div> 
             <div className="menu-link-divs" > 
               <NavLink to='/contact' exact className="menu-links"  onClick={this.handleShowMenu}>05. Contact</NavLink>

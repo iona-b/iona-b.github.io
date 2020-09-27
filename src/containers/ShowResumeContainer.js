@@ -17,7 +17,6 @@ function ShowResumeContainer(props) {
 
       {props.currentlyShowing === "Education" ? 
         <div className="components" >
-          <button className="buttons back-buttons" name="None" onClick={handleChangeCurrentlyShowing} >⇦</button>
           <Education  />
         </div>
         :
@@ -26,7 +25,6 @@ function ShowResumeContainer(props) {
 
       {props.currentlyShowing === "Skills" ? 
         <div className="components" >
-          <button className="buttons back-buttons" name="None" onClick={handleChangeCurrentlyShowing} >⇦</button>
           <Skills  />
         </div>
         :
@@ -35,7 +33,6 @@ function ShowResumeContainer(props) {
 
       {props.currentlyShowing === "VolunteerExperience" ? 
         <div className="components" >
-          <button className="buttons back-buttons" name="None" onClick={handleChangeCurrentlyShowing} >⇦</button>
           <VolunteerExperience  />
         </div>
         :
@@ -44,7 +41,6 @@ function ShowResumeContainer(props) {
 
       {props.currentlyShowing === "WorkExperience" ? 
         <div className="components" >
-          <button className="buttons back-buttons" name="None" onClick={handleChangeCurrentlyShowing} >⇦</button>
           <WorkExperience  />
         </div>
         :

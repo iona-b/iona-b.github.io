@@ -12,7 +12,8 @@ class App extends React.Component {
 
   state = {
     isMobile: false,
-    showMenu: false
+    showMenu: false,
+    forceUpdate: false
   }
 
   componentDidMount() {
@@ -48,7 +49,22 @@ class App extends React.Component {
       showMenu: !this.state.showMenu
     })
   }
+
+  handleForceUpdateTrue = () => {
+    this.setState ({
+      forceUpdate: true
+    })
+  }
+
+  handleForceUpdateFalse = () => {
+    this.setState ({
+      forceUpdate: false
+    })
+  }
   
+  renderProjectsContainer = () => <ProjectsContainer forceUpdate={this.state.forceUpdate} handleForceUpdateFalse={this.handleForceUpdateFalse} />
+  renderAboutContainer = () => <AboutContainer forceUpdate={this.state.forceUpdate} handleForceUpdateFalse={this.handleForceUpdateFalse} />
+  renderResumeContainer = () => <ResumeContainer forceUpdate={this.state.forceUpdate} handleForceUpdateFalse={this.handleForceUpdateFalse} />
 
   render() {
 
@@ -67,9 +83,9 @@ class App extends React.Component {
                 <img src={require("./media/logo.png")} alt='' id="logo" />
             </NavLink>     
             <NavLink to='/contact' exact className="navbar-links" >05. Contact</NavLink>
-            <NavLink to='/about' exact className="navbar-links" >04. About</NavLink>
-            <NavLink to='/resume' exact className="navbar-links" >03. Résumé</NavLink>
-            <NavLink to='/projects' exact className="navbar-links" >02. Projects</NavLink>
+            <NavLink to='/about' exact className="navbar-links" onClick={this.handleForceUpdateTrue} >04. About</NavLink>
+            <NavLink to='/resume' exact className="navbar-links" onClick={this.handleForceUpdateTrue} >03. Résumé</NavLink>
+            <NavLink to='/projects' exact className="navbar-links" onClick={this.handleForceUpdateTrue} >02. Projects</NavLink>
             <NavLink to='/' exact className="navbar-links" >01. Home</NavLink>
           </div >
     
@@ -90,9 +106,9 @@ class App extends React.Component {
     
           <Switch>
             <Route exact path='/' component={HomeContainer} />
-            <Route exact path='/about' component={AboutContainer} />
-            <Route exact path='/projects' component={ProjectsContainer} />
-            <Route exact path='/resume' component={ResumeContainer} />
+            <Route exact path='/about' component={this.renderAboutContainer} />
+            <Route exact path='/projects' component={this.renderProjectsContainer} />
+            <Route exact path='/resume' component={this.renderResumeContainer} />
             <Route exact path='/contact' component={Contact} />
             <Route component={NotFound}/>
           </Switch>
@@ -129,7 +145,7 @@ class App extends React.Component {
           <Switch>
             <Route exact path='/' component={HomeContainer} />
             <Route exact path='/about' component={AboutContainer} />
-            <Route exact path='/projects' component={ProjectsContainer} />
+            <Route exact path='/projects' component={this.renderProjectsContainer} />
             <Route exact path='/resume' component={ResumeContainer} />
             <Route exact path='/contact' component={Contact} />
             <Route component={NotFound}/>

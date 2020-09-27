@@ -5,14 +5,26 @@ import PhotoGrid from '../components/PhotoGrid'
 class AboutContainer extends React.Component {
 
   state = {
-    showing: "About"
+    currentlyShowing: "About"
   }
 
   handleShowingChange = (event) => {
     this.setState ({
-      showing: event.target.name
+      currentlyShowing: event.target.name
     })
-    console.log(this.state)
+  }
+
+  componentDidMount() {
+    this.props.handleForceUpdateFalse()
+  }
+
+  componentDidUpdate() {
+    if (this.props.forceUpdate === true) {
+      this.setState ({
+        currentlyShowing: "About"
+      })
+      this.props.handleForceUpdateFalse()
+    }
   }
 
   render() {
@@ -21,7 +33,7 @@ class AboutContainer extends React.Component {
 
       <div className="containers one-second-animation" id="about-container">
           <h2 className="h2" >Hello!</h2>
-          {this.state.showing === "About"
+          {this.state.currentlyShowing === "About"
             ?
             <div>
               <About />
@@ -30,7 +42,6 @@ class AboutContainer extends React.Component {
             : 
             <div>
               <PhotoGrid />
-              <button className="buttons about-buttons" name="About" onClick={this.handleShowingChange}  >About Me</button>
             </div>
           }
       </div>

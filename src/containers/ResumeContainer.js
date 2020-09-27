@@ -14,6 +14,19 @@ class ResumeContainer extends React.Component {
     })
   }
 
+  componentDidMount() {
+    this.props.handleForceUpdateFalse()
+  }
+
+  componentDidUpdate() {
+    if (this.props.forceUpdate === true) {
+      this.setState ({
+        currentlyShowing: "None"
+      })
+      this.props.handleForceUpdateFalse()
+    }
+  }
+
   render() {
 
     return (

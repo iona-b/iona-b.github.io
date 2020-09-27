@@ -313,7 +313,6 @@ html, body {
 }
 
 .photo-grid-photos:hover {
-  cursor: pointer;
   filter: none;
 }
 

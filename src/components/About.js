@@ -16,11 +16,3 @@ function About() {
 }
 
 export default About;
-
-// Nice to meet you! I'm Sara, a recent graduate from the interaction design program at the University of Washington in Seattle.
-
-// My story • Before design, I grew up drawing and exploring fine arts. At UW, I discovered a passion for interaction design and its unique blend of craft and creativity with problem-solving, centered around a core of compassion.
-
-// My values • I aim to craft meaningful, human-centered designs that make a positive influence, particularly in the wellbeing space. I believe that the greatest tools for design are open-mindedness, collaboration, and empathy.
-
-// My path • Previously, I was a product design intern at Lyft in San Francisco. Most recently, I was a student buddy for Applied 2020. Currently, I’m looking for product design opportunities. I'd love to connect!

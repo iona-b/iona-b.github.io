@@ -219,8 +219,8 @@ html, body {
   outline: none;
   font-size: 50px;
   position: fixed;
-  top: 5%;
-  right: 5%;
+  right: 30px;
+  top: 30px;
 }
 
 #menu-button:hover {

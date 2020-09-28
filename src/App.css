@@ -334,9 +334,7 @@ html, body {
   margin: 2%;
   border: solid;
   padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
   width: 40%;
   min-width: 200px;
 }
@@ -354,7 +352,7 @@ html, body {
 }
 
 .project-screenshots {
-  width: 95%;
+  width: 100%;
   border-radius: 10px;
 }
 
@@ -429,12 +427,6 @@ html, body {
   justify-content: center;
 }
 
-.resume-headings {
-  height: 10%;
-  margin-top: 10%;
-  margin-bottom: 10%;
-}
-
 
 .resume-divs {
   margin-left: 1%;
@@ -444,8 +436,11 @@ html, body {
   border: solid;
   border-radius: 10px;
   padding: 20px;
-  display: inline-block;
   min-width: 200px;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .resume-divs:hover {
@@ -453,8 +448,8 @@ html, body {
   cursor: pointer;
 }
 
-.resume-blurbs {
-  height: 40%;
+.resume-headings {
+  height: 10%;
 }
 
 .resume-bullet-points-div {

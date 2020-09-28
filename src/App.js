@@ -91,13 +91,13 @@ class App extends React.Component {
           </div >
     
           <div id="social-links-div">
-            <a href="https://github.com/iona-b" >
+            <a href="https://github.com/iona-b" rel="noopener noreferrer" target="_blank" >
               <img src={require("./media/github-icon.svg")} alt='' className="icons" />
             </a><br></br>
-            <a href="https://www.linkedin.com/in/iona-brabender" >
+            <a href="https://www.linkedin.com/in/iona-brabender" rel="noopener noreferrer" target="_blank" >
               <img src={require("./media/linkedin-icon.svg")} alt='' className="icons" />
             </a><br></br>
-            <a href="https://dev.to/ionab" >
+            <a href="https://dev.to/ionab" rel="noopener noreferrer" target="_blank" >
               <img src={require("./media/dev.to-icon.svg")} alt='' className="icons" />
             </a><br></br>
             <a href={`mailto:ionabrabender@gmail.com`} >
@@ -129,13 +129,13 @@ class App extends React.Component {
           </button>
           
           <div id="social-links-div">
-            <a href="https://github.com/iona-b" >
+            <a href="https://github.com/iona-b" rel="noopener noreferrer" target="_blank" >
               <img src={require("./media/github-icon.svg")} alt='' className="icons" />
             </a><br></br>
-            <a href="https://www.linkedin.com/in/iona-brabender" >
+            <a href="https://www.linkedin.com/in/iona-brabender" rel="noopener noreferrer" target="_blank" >
               <img src={require("./media/linkedin-icon.svg")} alt='' className="icons" />
             </a><br></br>
-            <a href="https://dev.to/ionab" >
+            <a href="https://dev.to/ionab" rel="noopener noreferrer" target="_blank" >
               <img src={require("./media/dev.to-icon.svg")} alt='' className="icons" />
             </a><br></br>
             <a href={`mailto:ionabrabender@gmail.com`} >

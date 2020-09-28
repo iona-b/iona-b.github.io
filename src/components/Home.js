@@ -14,7 +14,7 @@ function Home() {
       </Link>
       <p className="nine-second-animation">This website was created using React and custom CSS.</p>
       <a href={`mailto:ionabrabender@gmail.com`} className="ten-second-animation" >
-        <button className="buttons">Get in touch</button>
+        <button className="buttons" id="get-in-touch" >Get in touch</button>
       </a>
     </div>
     

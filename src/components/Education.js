@@ -26,7 +26,7 @@ class Education extends React.Component {
           <h2 className="h2" >Education</h2>
           
           <div className="individual-resume-divs" >
-            <h2 className="h2-standard" >Software Engineering</h2>
+            <h2 className="h2-standard individual-resume-divs-headers" >Software Engineering</h2>
             <h3 className="h3" >Flatiron School</h3>
             <h4 className="h4" >San Francisco, USA</h4>
             <h4 className="h4" >2020</h4>
@@ -40,19 +40,19 @@ class Education extends React.Component {
                 <p className="resume-bullet-points indented" >• HTML and CSS</p>
                 <br></br>
                 <p className="resume-bullet-points" >• Projects:</p>
-                <a href="https://github.com/iona-b/always-balanced-frontend" className="indented" >
+                <a href="https://github.com/iona-b/always-balanced-frontend" className="indented" rel="noopener noreferrer" target="_blank" >
                   <p className="resume-bullet-points indented" >• Always Balanced: A Ruby on Rails, React, and Redux application</p>
                 </a>
-                <a href="https://github.com/iona-b/fruit-quest-frontend" className="indented" >
+                <a href="https://github.com/iona-b/fruit-quest-frontend" className="indented" rel="noopener noreferrer" target="_blank" >
                   <p className="resume-bullet-points indented" >• Fruit Quest: A Ruby on Rails and React application using the Phaser 3 game engine</p>
                 </a>
-                <a href="https://github.com/iona-b/gandr" className="indented" >
+                <a href="https://github.com/iona-b/gandr" className="indented" rel="noopener noreferrer" target="_blank" >
                   <p className="resume-bullet-points indented" >• Gandr: A Ruby on Rails and JavaScript application</p>
                 </a>
-                <a href="https://github.com/iona-b/brew-flight" className="indented" >
+                <a href="https://github.com/iona-b/brew-flight" className="indented" rel="noopener noreferrer" target="_blank" >
                   <p className="resume-bullet-points indented" >• Brew Flight: A Ruby on Rails application</p>
                 </a>
-                <a href="https://github.com/iona-b/indoubt" className="indented" >
+                <a href="https://github.com/iona-b/indoubt" className="indented" rel="noopener noreferrer" target="_blank" >
                   <p className="resume-bullet-points indented" >• InDoubt: A Ruby Command Line Interface (CLI) application</p>
                 </a>
                 <br></br>
@@ -68,7 +68,7 @@ class Education extends React.Component {
           </div>
   
           <div className="individual-resume-divs" >
-            <h2 className="h2-standard" >MaNaMa Archiving: Cultural and Modern Day Document Management</h2>
+            <h2 className="h2-standard individual-resume-divs-headers" >MaNaMa Archiving </h2>
             <h3 className="h3" >Vrije Universiteit Brussel</h3>
             <h4 className="h4" >Brussels, Belgium</h4>
             <h4 className="h4" >2016-2017</h4>
@@ -85,7 +85,7 @@ class Education extends React.Component {
           </div>
 
           <div className="individual-resume-divs" >
-            <h2 className="h2-standard" >Dutch</h2>
+            <h2 className="h2-standard individual-resume-divs-headers" >Dutch</h2>
             <h3 className="h3" >Ghent University Centre for Language</h3>
             <h4 className="h4" >Ghent, Belgium</h4>
             <h4 className="h4" >2013-2014</h4>
@@ -100,7 +100,7 @@ class Education extends React.Component {
           </div>
 
           <div className="individual-resume-divs" >
-            <h2 className="h2-standard" >MLitt Museum and Gallery Studies</h2>
+            <h2 className="h2-standard individual-resume-divs-headers" >MLitt Museum and Gallery Studies</h2>
             <h3 className="h3" >University of St Andrews</h3>
             <h4 className="h4" >St Andrews, UK</h4>
             <h4 className="h4" >2012-2013</h4>
@@ -117,7 +117,7 @@ class Education extends React.Component {
           </div>
 
           <div className="individual-resume-divs" >
-            <h2 className="h2-standard" >MA History and Politics</h2>
+            <h2 className="h2-standard individual-resume-divs-headers" >MA History and Politics</h2>
             <h3 className="h3" >University of Glasgow</h3>
             <h4 className="h4" >Glasgow, UK</h4>
             <h4 className="h4" >2008-2012</h4>

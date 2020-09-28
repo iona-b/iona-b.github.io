@@ -35,7 +35,7 @@ function Project(props) {
 
         <div className="project-divs">
           <h2 className="project-div-headers">See more on GitHub</h2>
-          <a href="https://github.com/iona-b" >
+          <a href="https://github.com/iona-b" rel="noopener noreferrer" target="_blank" >
             <img src={require("../media/github-icon.svg")} alt='' className="icons" id="project-github-icon" />
           </a>
         </div>

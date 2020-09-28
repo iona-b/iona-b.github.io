@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c44718b611c27533460435101783bbf4",
+    "revision": "3147bece45c941ece0d3bef7c9da1a5d",
     "url": "/index.html"
   },
   {
-    "revision": "e9c005d22ebe7863972d",
-    "url": "/static/css/main.6500a64e.chunk.css"
+    "revision": "1fd8a4927d170ed90fee",
+    "url": "/static/css/main.d25a2474.chunk.css"
   },
   {
     "revision": "e18908dac2a471ee8386",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.ddc5d3ce.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e9c005d22ebe7863972d",
-    "url": "/static/js/main.3ad60b99.chunk.js"
+    "revision": "1fd8a4927d170ed90fee",
+    "url": "/static/js/main.99ab07ea.chunk.js"
   },
   {
     "revision": "237e891a3ffba5731789",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a20c8e35aea0c912ce310edc8636db74",
     "url": "/static/media/dev.to-icon.a20c8e35.svg"
+  },
+  {
+    "revision": "286ccc456ea700a27549a17b955f87e2",
+    "url": "/static/media/education.286ccc45.png"
   },
   {
     "revision": "6a6b41533d13e5cd13747801ef254f6b",
@@ -84,7 +88,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/send.ce4838de.png"
   },
   {
+    "revision": "f82dc146553aa62664e9e2dec2e4aa10",
+    "url": "/static/media/skills.f82dc146.png"
+  },
+  {
     "revision": "727f3c7e9da4bf27d0907fa436568d06",
     "url": "/static/media/tahoe.727f3c7e.jpeg"
+  },
+  {
+    "revision": "f29c62c04e56b2884e2f2d49c722be66",
+    "url": "/static/media/volunteer-experience.f29c62c0.png"
   }
 ]);

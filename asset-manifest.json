@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.6500a64e.chunk.css",
-    "main.js": "/static/js/main.3ad60b99.chunk.js",
-    "main.js.map": "/static/js/main.3ad60b99.chunk.js.map",
+    "main.css": "/static/css/main.d25a2474.chunk.css",
+    "main.js": "/static/js/main.99ab07ea.chunk.js",
+    "main.js.map": "/static/js/main.99ab07ea.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b6e4a93e.js",
     "runtime-main.js.map": "/static/js/runtime-main.b6e4a93e.js.map",
     "static/js/2.ddc5d3ce.chunk.js": "/static/js/2.ddc5d3ce.chunk.js",
     "static/js/2.ddc5d3ce.chunk.js.map": "/static/js/2.ddc5d3ce.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b428997947c534db102f082218407182.js": "/precache-manifest.b428997947c534db102f082218407182.js",
+    "precache-manifest.6ddb818243c7d05fba1051ab8599fe50.js": "/precache-manifest.6ddb818243c7d05fba1051ab8599fe50.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.6500a64e.chunk.css.map": "/static/css/main.6500a64e.chunk.css.map",
+    "static/css/main.d25a2474.chunk.css.map": "/static/css/main.d25a2474.chunk.css.map",
     "static/js/2.ddc5d3ce.chunk.js.LICENSE.txt": "/static/js/2.ddc5d3ce.chunk.js.LICENSE.txt",
     "static/media/always-balanced-demo.mp4": "/static/media/always-balanced-demo.e4205c44.mp4",
     "static/media/always-balanced-screenshot.png": "/static/media/always-balanced-screenshot.27de698a.png",
     "static/media/bodega-bay.jpeg": "/static/media/bodega-bay.00b368c2.jpeg",
     "static/media/dev.to-icon.svg": "/static/media/dev.to-icon.a20c8e35.svg",
+    "static/media/education.png": "/static/media/education.286ccc45.png",
     "static/media/france.jpeg": "/static/media/france.6a6b4153.jpeg",
     "static/media/fruit-quest-screenshot.png": "/static/media/fruit-quest-screenshot.60c77388.png",
     "static/media/gandr-screenshot.png": "/static/media/gandr-screenshot.9b6b690d.png",
@@ -27,12 +28,14 @@
     "static/media/new-york.jpeg": "/static/media/new-york.d252b2d1.jpeg",
     "static/media/pavlova.jpeg": "/static/media/pavlova.72efe3b4.jpeg",
     "static/media/send.png": "/static/media/send.ce4838de.png",
-    "static/media/tahoe.jpeg": "/static/media/tahoe.727f3c7e.jpeg"
+    "static/media/skills.png": "/static/media/skills.f82dc146.png",
+    "static/media/tahoe.jpeg": "/static/media/tahoe.727f3c7e.jpeg",
+    "static/media/volunteer-experience.png": "/static/media/volunteer-experience.f29c62c0.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b6e4a93e.js",
     "static/js/2.ddc5d3ce.chunk.js",
-    "static/css/main.6500a64e.chunk.css",
-    "static/js/main.3ad60b99.chunk.js"
+    "static/css/main.d25a2474.chunk.css",
+    "static/js/main.99ab07ea.chunk.js"
   ]
 }

@@ -160,7 +160,7 @@ html, body {
 }
 
 .icons:hover {
-  /* opacity: 50%; */
+  color: #61B329;
 }
 
 #social-links-div {
@@ -187,7 +187,7 @@ html, body {
 }
 
 .buttons:hover {
-  /* opacity: 50%; */
+  color: #61B329;
   cursor: pointer;
 }
 
@@ -209,7 +209,7 @@ html, body {
   color: white;
   right: 0;
   top: 8%;
-  /* opacity: 100%; */
+  color: #61B329;
   z-index: 4;
 }
 
@@ -224,7 +224,7 @@ html, body {
 }
 
 #menu-button:hover {
-  /* opacity: 50%; */
+  color: #61B329;
   cursor: pointer;
 }
 
@@ -359,7 +359,7 @@ html, body {
 }
 
 .project-divs:hover {
-  opacity: 500%;
+  color: #61B329;
   cursor: pointer;
 }
 
@@ -381,7 +381,6 @@ html, body {
   left: 0;
   top: 0;
   z-index: 4;
-  opacity: 800%;
 }
 
 .video-containers {
@@ -389,7 +388,6 @@ html, body {
   width: 50%;
   left: 25%;
   top: 20%;
-  opacity: 1000%;
   background: white;
   z-index: 5;
 }
@@ -410,7 +408,7 @@ html, body {
 }
 
 .contact-icons:hover {
-  /* opacity: 50%; */
+  color: #61B329;
   cursor: pointer;
 }
 
@@ -451,7 +449,7 @@ html, body {
 }
 
 .resume-divs:hover {
-  /* opacity: 50%; */
+  color: #61B329;
   cursor: pointer;
 }
 

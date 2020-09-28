@@ -42,7 +42,7 @@ html, body {
 }
 
 .navbar-links:hover {
-  opacity: 90%
+  color: #61B329;
 }
 
 #menu {
@@ -381,7 +381,7 @@ html, body {
   left: 0;
   top: 0;
   z-index: 4;
-  opacity: 80%;
+  /* opacity: 80%; */
 }
 
 .video-containers {
@@ -389,7 +389,7 @@ html, body {
   width: 50%;
   left: 25%;
   top: 20%;
-  opacity: 100%;
+  /* opacity: 100%; */
   background: white;
   z-index: 5;
 }

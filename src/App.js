@@ -11,45 +11,45 @@ import NotFound from './components/NotFound'
 class App extends React.Component {
 
   state = {
-    isMobile: false,
-    showMenu: false,
+    // isMobile: false,
+    // showMenu: false,
     forceUpdate: false
   }
 
-  componentDidMount() {
-    if (window.innerWidth <= 864 || window.innerHeight <= 420) {
-      this.setState ({
-        isMobile: true,
-        showMenu: false
-      })
-    } else {
-      this.setState ({
-        isMobile: false,
-        showMenu: false
-      })
-    }
-  }
+  // componentDidMount() {
+  //   if (window.innerWidth <= 864 || window.innerHeight <= 420) {
+  //     this.setState ({
+  //       isMobile: true,
+  //       showMenu: false
+  //     })
+  //   } else {
+  //     this.setState ({
+  //       isMobile: false,
+  //       showMenu: false
+  //     })
+  //   }
+  // }
 
-  handleResize = () => {
-    if (window.innerWidth <= 864 || window.innerHeight <= 420) {
-      this.setState ({
-        isMobile: true,
-        showMenu: false
-      }) 
-    } else {
-      this.setState ({
-        isMobile: false,
-        showMenu: false
-      })
-    }
-  }
+  // handleResize = () => {
+  //   if (window.innerWidth <= 864 || window.innerHeight <= 420) {
+  //     this.setState ({
+  //       isMobile: true,
+  //       showMenu: false
+  //     }) 
+  //   } else {
+  //     this.setState ({
+  //       isMobile: false,
+  //       showMenu: false
+  //     })
+  //   }
+  // }
 
-  handleShowMenu = (event) => {
-    this.setState ({
-      showMenu: !this.state.showMenu
-    })
-    this.handleForceUpdateTrue()
-  }
+  // handleShowMenu = (event) => {
+  //   this.setState ({
+  //     showMenu: !this.state.showMenu
+  //   })
+  //   this.handleForceUpdateTrue()
+  // }
 
   handleForceUpdateTrue = () => {
     this.setState ({
@@ -75,7 +75,7 @@ class App extends React.Component {
 
       <div>
 
-        {this.state.isMobile === false ? 
+        {/* {this.state.isMobile === false ?  */}
 
         <div className="homepage">
     
@@ -116,7 +116,7 @@ class App extends React.Component {
     
         </div>
 
-        :
+        {/* :
 
         <div className="homepage" > 
 
@@ -155,9 +155,9 @@ class App extends React.Component {
         
         </div>
 
-        }
+        } */}
 
-        {this.state.showMenu === true ?
+        {/* {this.state.showMenu === true ?
 
           <div id="menu" >
 
@@ -187,7 +187,7 @@ class App extends React.Component {
           null
 
         }
-      
+       */}
       </div>
     
     );

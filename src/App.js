@@ -120,13 +120,14 @@ class App extends React.Component {
 
         <div className="homepage" > 
 
-          <NavLink to='/' exact >
-            <img src={require("./media/logo.png")} alt='' id="logo" />
-          </NavLink>     
-
-          <button id="menu-button" onClick={this.handleShowMenu}>
-            ☰
-          </button>
+          <div id="navbar">   
+            <NavLink to='/' exact className="navbar-links" >
+              <img src={require("./media/logo.png")} alt='' id="logo" />
+            </NavLink>     
+            <button id="menu-button" onClick={this.handleShowMenu}>
+              ☰
+            </button>
+          </div > 
           
           <div id="social-links-div">
             <a href="https://github.com/iona-b" rel="noopener noreferrer" target="_blank" >

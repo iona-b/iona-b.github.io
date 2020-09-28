@@ -193,6 +193,7 @@ html, body {
   border-color: black;
   border-radius: 5px;
   outline: none;
+  text-align: center;
 }
 
 .buttons:hover {
@@ -445,7 +446,7 @@ html, body {
   width: 40%;
   border: solid;
   border-radius: 10px;
-  min-width: 200px;
+  min-width: 400px;
   min-height: 150px;
   display: grid;
 }

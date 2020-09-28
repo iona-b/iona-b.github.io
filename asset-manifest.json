@@ -1,22 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.3cdc1cc1.chunk.css",
-    "main.js": "/static/js/main.bd573021.chunk.js",
-    "main.js.map": "/static/js/main.bd573021.chunk.js.map",
+    "main.css": "/static/css/main.065c45b1.chunk.css",
+    "main.js": "/static/js/main.77841ac4.chunk.js",
+    "main.js.map": "/static/js/main.77841ac4.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b6e4a93e.js",
     "runtime-main.js.map": "/static/js/runtime-main.b6e4a93e.js.map",
-    "static/js/2.8adc6e80.chunk.js": "/static/js/2.8adc6e80.chunk.js",
-    "static/js/2.8adc6e80.chunk.js.map": "/static/js/2.8adc6e80.chunk.js.map",
+    "static/js/2.ddc5d3ce.chunk.js": "/static/js/2.ddc5d3ce.chunk.js",
+    "static/js/2.ddc5d3ce.chunk.js.map": "/static/js/2.ddc5d3ce.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.93de787d7e646ca67e678c9884464bb6.js": "/precache-manifest.93de787d7e646ca67e678c9884464bb6.js",
+    "precache-manifest.af6397472fe7d11754e9336cd60943ed.js": "/precache-manifest.af6397472fe7d11754e9336cd60943ed.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.3cdc1cc1.chunk.css.map": "/static/css/main.3cdc1cc1.chunk.css.map",
-    "static/js/2.8adc6e80.chunk.js.LICENSE.txt": "/static/js/2.8adc6e80.chunk.js.LICENSE.txt",
+    "static/css/main.065c45b1.chunk.css.map": "/static/css/main.065c45b1.chunk.css.map",
+    "static/js/2.ddc5d3ce.chunk.js.LICENSE.txt": "/static/js/2.ddc5d3ce.chunk.js.LICENSE.txt",
     "static/media/always-balanced-demo.mp4": "/static/media/always-balanced-demo.e4205c44.mp4",
     "static/media/always-balanced-screenshot.png": "/static/media/always-balanced-screenshot.27de698a.png",
     "static/media/bodega-bay.jpeg": "/static/media/bodega-bay.00b368c2.jpeg",
     "static/media/dev.to-icon.svg": "/static/media/dev.to-icon.a20c8e35.svg",
-    "static/media/email.svg": "/static/media/email.d5d04bdd.svg",
     "static/media/france.jpeg": "/static/media/france.6a6b4153.jpeg",
     "static/media/fruit-quest-screenshot.png": "/static/media/fruit-quest-screenshot.60c77388.png",
     "static/media/gandr-screenshot.png": "/static/media/gandr-screenshot.9b6b690d.png",
@@ -32,8 +31,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.b6e4a93e.js",
-    "static/js/2.8adc6e80.chunk.js",
-    "static/css/main.3cdc1cc1.chunk.css",
-    "static/js/main.bd573021.chunk.js"
+    "static/js/2.ddc5d3ce.chunk.js",
+    "static/css/main.065c45b1.chunk.css",
+    "static/js/main.77841ac4.chunk.js"
   ]
 }

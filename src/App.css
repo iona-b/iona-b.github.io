@@ -6,6 +6,7 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
+  margin-bottom: 100px;
   text-align: center;
   font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono", monospace;
   color: black;
@@ -89,16 +90,17 @@ html, body {
 #social-links-div {
   position: fixed;
   left: 0;
+  bottom: 30px;
   z-index: 1;
   height: 100%;
   min-height: 550px;
-  width: 50px;
+  width: 65px;
   display: flex;
   flex-direction: column-reverse;
 }
 
 .icons {
-  width: 100%;
+  width: 80%;
   margin-left: 30px;
   margin-bottom: 30px;
   bottom: 0;

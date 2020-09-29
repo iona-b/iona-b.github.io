@@ -6,11 +6,11 @@ function Skills() {
 
     <div className="one-second-animation" >
 
-        <h2>Skills</h2>
+        <h2 className="h2" >Skills</h2>
 
-        <div id="skills-div">
+        <div className= "components" id="skills-div" >
 
-          <div className=" skills-divs" >
+          <div className="skills-divs" >
             
               <h2 className="h2-standard" >Technical</h2>
                 <div className="resume-bullet-points-div" >
@@ -26,7 +26,7 @@ function Skills() {
 
             </div>
 
-            <div className=" skills-divs" >
+            <div className="skills-divs" >
             
               <h2 className="h2-standard" >Interpersonal</h2>
                 <div className="resume-bullet-points-div" >
@@ -37,7 +37,7 @@ function Skills() {
 
             </div>
 
-            <div className=" skills-divs" >
+            <div className="skills-divs" >
             
               <h2 className="h2-standard" >Languages</h2>
                 <div className="resume-bullet-points-div" >
@@ -48,7 +48,7 @@ function Skills() {
 
             </div>
 
-            <div className=" skills-divs" >
+            <div className="skills-divs" >
             
               <h2 className="h2-standard" >Other</h2>
                 <div className="resume-bullet-points-div" >

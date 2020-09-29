@@ -7,7 +7,7 @@ function ShowProjectContainer(props) {
 
   return (
 
-    <div className="one-second-animation outside-project-containers" >
+    <div className="one-second-animation show-project-container" >
 
       {props.currentlyShowing === "AlwaysBalanced" ? 
         <div className="components project-containers" >

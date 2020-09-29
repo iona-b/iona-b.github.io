@@ -26,6 +26,7 @@ class WorkExperience extends React.Component {
           <h2 className="h2" >Work Experience</h2>
           
           <div className="individual-resume-divs" >
+            
             <h2 className="h2-standard" >Catering Specialist</h2>
             <h3 className="h3" >Market Hall Caterers</h3>
             <h4 className="h4" >2019-2020</h4>

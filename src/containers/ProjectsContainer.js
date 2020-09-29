@@ -31,15 +31,15 @@ class ProjectsContainer extends React.Component{
 
     return (
 
-      <div id="projects-div" className="one-second-animation" >
+      <div className="one-second-animation" >
 
         {this.state.currentlyShowing === "None" ? 
-          <div className="containers" >
+          <div className="containers" id="projects-container" >
             <h2 className="h2" >Projects</h2>
             <Project handleChangeCurrentlyShowing={this.handleChangeCurrentlyShowing} />
           </div>
           :
-          <div className="containers" >
+          <div className="containers" id="projects-container" >
             <ShowProjectContainer currentlyShowing={this.state.currentlyShowing} handleChangeCurrentlyShowing={this.handleChangeCurrentlyShowing} />
           </div>
         }

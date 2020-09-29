@@ -124,7 +124,7 @@ html, body {
 /* General Component Styling  */
 
 .components {
-  margin-top: 5%;
+  margin-top: 3%;
   margin-left: 5%;
   margin-right: 10%;
   width: 90%;
@@ -349,6 +349,10 @@ html, body {
   min-width: 400px;
 }
 
+#projects-container {
+  margin-top: 0;
+}
+
 .project-div-headers {
   color: black;
   height: 10%;
@@ -371,14 +375,17 @@ html, body {
   cursor: pointer;
 }
 
-.outside-project-containers {
-  width: 100%;
-  display: flex;
-  margin-top: -60px;
-}
-
 .project-containers {
   padding-left: 3%;
+  margin-top: 0;
+}
+
+.show-project-container {
+  margin-top: 0px;
+}
+
+.show-project-headers {
+  margin-bottom: 3%;
 }
 
 .video-player-background {
@@ -440,9 +447,7 @@ html, body {
 
 
 .resume-divs {
-  margin-left: 1%;
-  margin-right: 1%;
-  margin-bottom: 2%;
+  margin: 2%;
   width: 40%;
   border: solid;
   border-radius: 10px;
@@ -514,13 +519,16 @@ html, body {
 }
 
 .skills-divs {
-  margin-left: 1%;
-  margin-right: 1%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 2%;
   margin-bottom: 2%;
   width: 30%;
   border: solid;
   border-radius: 10px;
   padding: 20px;
+  min-width: 300px;
+  min-height: 150px;
 }
 
 #PDF-link {

@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactPlayer from 'react-player'
-import AlwaysBalancedDemo from '../media/always-balanced-demo.mp4'
+import FruitQuestDemo from '../media/fruit-quest-demo.mp4'
 
 class FruitQuest extends React.Component {
 
@@ -24,7 +24,7 @@ class FruitQuest extends React.Component {
             <h2 className="project-div-headers h2" >Fruit Quest</h2>
             <p className="p" id="about" >Description Coming Soon</p>
             {/* <p className="p" id="about" >Description Paragraph 2</p> */}
-            {/* <button className="buttons small-buttons" onClick={this.handleChangeShowing} >Demo</button> */}
+            <button className="buttons small-buttons" onClick={this.handleChangeShowing} >Demo</button>
             <a href="https://github.com/iona-b/fruit-quest-frontend"  rel="noopener noreferrer" target="_blank" >
               <button className="buttons small-buttons" >GitHub</button>
             </a>
@@ -38,7 +38,7 @@ class FruitQuest extends React.Component {
                 controls={true}
                 wrapper={"video-containers"}
                 url={[
-                  {src: AlwaysBalancedDemo, type: 'video/mp4'},
+                  {src: FruitQuestDemo, type: 'video/mp4'},
                 ]}
               />
             </div>

@@ -22,7 +22,7 @@ class Gandr extends React.Component {
         {this.state.aboutShowing === true ? 
           <div>
             <h2 className="project-div-headers h2" >Gandr</h2>
-            <p className="p" id="about" >Gandr is a JavaScript Single Page Application, with a Rails backend which allows users to browse a range of beautiful artworks from the Metropolitan Museum of Art, and to add comments and likes to their favorite pieces. gandr was created by Haleigh Dalke and Iona Brabender for their Mod 3 Project as part of Flatiron School's immersive Software Engineering Program.</p>
+            <p className="p" id="about" >Gandr is a JavaScript Single Page Application, with a Rails backend which allows users to browse a range of beautiful artworks from the Metropolitan Museum of Art, and to add comments and likes to their favorite pieces.</p>
             <button className="buttons small-buttons" onClick={this.handleChangeShowing} >Demo</button>
             <a href="https://github.com/haleighdalke/gandr"  rel="noopener noreferrer" target="_blank" >
               <button className="buttons small-buttons" >GitHub</button>

@@ -21,7 +21,7 @@ function Contact() {
             </a><br></br>
         <a href={`mailto:ionabrabender@gmail.com`} >
           <img src={require("../media/send.png")} alt='' className="contact-icons" />
-        </a>
+        </a><br></br>
       </div>
     </div>
     

@@ -16,6 +16,9 @@ function Contact() {
         <a href="https://dev.to/ionab" rel="noopener noreferrer" target="_blank" >
           <img src={require("../media/dev.to-icon.svg")} alt='' className="contact-icons" />
         </a><br></br>
+        <a href="https://medium.com/@ionabrabender" rel="noopener noreferrer" target="_blank" >
+              <img src={require("../media/medium-icon.png")} alt='' className="contact-icons" />
+            </a><br></br>
         <a href={`mailto:ionabrabender@gmail.com`} >
           <img src={require("../media/send.png")} alt='' className="contact-icons" />
         </a>

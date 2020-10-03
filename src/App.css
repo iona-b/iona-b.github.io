@@ -102,6 +102,7 @@ html, body {
   margin-left: 30px;
   margin-bottom: 30px;
   bottom: 0;
+  border-radius: 7px;
 }
 
 .icons:hover {
@@ -421,6 +422,7 @@ html, body {
   min-width: 50px;
   margin-left: 30px;
   margin-right: 30px;
+  border-radius: 7px;
 }
 
 .contact-icons:hover {

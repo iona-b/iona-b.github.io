@@ -22,7 +22,7 @@ class FruitQuest extends React.Component {
         {this.state.aboutShowing === true ? 
           <div>
             <h2 className="project-div-headers h2" >Fruit Quest</h2>
-            <p className="p" id="about" >Fruit Quest is an game application created using a Ruby on Rails backend and React frontend, in combination with the Phaser 3 game engine. Users can create a profile and play any of the four levels available. The aim of the game is to collect as many pieces of fruit as possible before the timer reaches 0. Users can view their personal high scores and total scores on their profile page, and can also make their way onto the leaderboard.</p>
+            <p className="p" id="about" >Fruit Quest is a game application created using a Ruby on Rails backend and React frontend, in combination with the Phaser 3 game engine. Users can create a profile and play any of the four levels available. The aim of the game is to collect as many pieces of fruit as possible before the timer reaches 0. Users can view their personal high scores and total scores on their profile page, and can also make their way onto the leaderboard.</p>
             <br></br>
             <button className="buttons small-buttons" onClick={this.handleChangeShowing} >Demo</button>
             <a href="https://github.com/iona-b/fruit-quest-frontend"  rel="noopener noreferrer" target="_blank" >

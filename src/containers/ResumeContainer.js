@@ -36,7 +36,7 @@ class ResumeContainer extends React.Component {
         {this.state.currentlyShowing === "None" ?
           <div className="containers" >
             <h2 className="h2" >Résumé</h2>
-            <h2><a href="https://github.com/iona-b/iona-b.github.io/blob/iona/src/Iona-Brabender-Resume.pdf" id="PDF-link" rel="noopener noreferrer" target="_blank" >PDF Version</a></h2>
+            <h2><a href="https://github.com/iona-b/iona-b.github.io/blob/iona/src/Iona%20Brabender%20Resume.pdf" id="PDF-link" rel="noopener noreferrer" target="_blank" >PDF Version</a></h2>
             <Resume handleChangeCurrentlyShowing={this.handleChangeCurrentlyShowing} />
           </div>
           :

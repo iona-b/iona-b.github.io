@@ -27,18 +27,19 @@ class WorkExperience extends React.Component {
           
           <div className="individual-resume-divs" >
             
-            <h2 className="h2-standard" >Catering Specialist</h2>
+            <h2 className="h2-standard individual-resume-divs-headers" >Catering Specialist</h2>
             <h3 className="h3" >Market Hall Caterers</h3>
+            <h4 className="h4" >Oakland, California, USA</h4>
             <h4 className="h4" >2019-2020</h4>
             <button name="showMarketHallCaterers" className="buttons expand-buttons" onClick={this.handleExpand}>{this.state.showMarketHallCaterers === false ? "+ more" : "- less"} </button>
             {this.state.showMarketHallCaterers === true ? 
               <div className="resume-bullet-points-div" >
-                <p className="resume-bullet-points" >• Created faster inter-departmental order processing by automating reporting, therefore maximizing order management capabilities.</p>
-                <p className="resume-bullet-points" >• Was key in managing a significant and high-pressure transformation in operations, thereby allowing continuation of business during the lockdown period.</p>
+                <p className="resume-bullet-points" >• Created faster inter-departmental order processing by automating reporting, thereby maximizing order management capabilities.</p>
+                <p className="resume-bullet-points" >• Was key in managing a significant and high-pressure transformation in operations, therefore allowing continuation of business during the lockdown period.</p>
                 <p className="resume-bullet-points" >• Coordinated events and orders in an accurate, thorough, organized, and efficient way which led to a significant decrease in order errors.</p>
                 <p className="resume-bullet-points" >• Created tailored menus for clients, while remaining within the boundaries of the kitchen's capabilities.</p>
                 <p className="resume-bullet-points" >• Communicated effectively with clients and colleagues to ensure the successful completion of catering events.</p>
-                <p className="resume-bullet-points" >• Delivered high-quality customer service in a fast-paced environment.</p>
+                <p className="resume-bullet-points" >• Delivered high-quality customer service in a fast-paced environment to optimize client experience.</p>
               </div>
               :
               null
@@ -47,8 +48,9 @@ class WorkExperience extends React.Component {
           </div>
   
           <div className="individual-resume-divs" >
-            <h2 className="h2-standard" >Office Administrator and Accounting Assistant</h2>
+            <h2 className="h2-standard individual-resume-divs-headers" >Office Administrator and Accounting Assistant</h2>
             <h3 className="h3" >San Francisco Box Office</h3>
+            <h4 className="h4" >San Francisco, California, USA</h4>
             <h4 className="h4" >2018-2019</h4>
             <button name="showSanFranciscoBoxOffice" className="buttons expand-buttons" onClick={this.handleExpand}>{this.state.showSanFranciscoBoxOffice === false ? "+ more" : "- less"} </button>
             {this.state.showSanFranciscoBoxOffice === true ? 
@@ -64,16 +66,17 @@ class WorkExperience extends React.Component {
           </div>
 
           <div className="individual-resume-divs" >
-            <h2 className="h2-standard" >Language Coach</h2>
+            <h2 className="h2-standard individual-resume-divs-headers" >Language Coach</h2>
             <h3 className="h3" >Berlitz</h3>
+            <h4 className="h4" >Ghent, Flanders, Belgium</h4>
             <h4 className="h4" >2014-2017</h4>
             <button name="showBerlitz" className="buttons expand-buttons" onClick={this.handleExpand}>{this.state.showBerlitz === false ? "+ more" : "- less"} </button>
             {this.state.showBerlitz === true ? 
               <div className="resume-bullet-points-div" >
-                <p className="resume-bullet-points" >• Created audience appropriate lesson plans, and completed related administrative tasks.</p>
-                <p className="resume-bullet-points" >• Assessed students, gathered feedback, and ensured high quality lessons.</p>
-                <p className="resume-bullet-points" >• Worked with people from a variety of backgrounds and cultures.</p>
-                <p className="resume-bullet-points" >• Translated documents.</p>
+                <p className="resume-bullet-points" >• Created audience-appropriate lesson plans based on client assessment and feedback in order to optimize students' learning experience and capabilities.</p>
+                <p className="resume-bullet-points" >• Completed related administrative tasks to a high standard in order to improve the fluency of lessons.</p>
+                <p className="resume-bullet-points" >• Worked in a culturally-sensitive way so as to improve the experience of international clients.</p>
+                <p className="resume-bullet-points" >• Utilized language and writing skills to translate academic and business documents.</p>
               </div>
               :
               null
@@ -81,13 +84,15 @@ class WorkExperience extends React.Component {
           </div>
 
           <div className="individual-resume-divs" >
-            <h2 className="h2-standard" >Student Intern</h2>
+            <h2 className="h2-standard individual-resume-divs-headers" >Student Intern</h2>
             <h3 className="h3" >AMSAB Institute for Social History</h3>
+            <h4 className="h4" >Ghent, Flanders, Belgium</h4>
             <h4 className="h4" >2016-2017</h4>
             <button name="showAMSAB" className="buttons expand-buttons" onClick={this.handleExpand}>{this.state.showAMSAB === false ? "+ more" : "- less"} </button>
             {this.state.showAMSAB === true ? 
               <div className="resume-bullet-points-div" >
-                <p className="resume-bullet-points" >• Planned and archived a professoral archive.</p>
+                <p className="resume-bullet-points" >• Utilized archiving skills to effectively plan and archive a professoral collection.</p>
+                <p className="resume-bullet-points" >• Used language and writing skills to translate documents for publication.</p>
               </div>
               :
               null
@@ -95,16 +100,17 @@ class WorkExperience extends React.Component {
           </div>
 
           <div className="individual-resume-divs" >
-            <h2 className="h2-standard" >Student Intern</h2>
+            <h2 className="h2-standard individual-resume-divs-headers" >Student Intern</h2>
             <h3 className="h3" >Museum of Edinburgh</h3>
+            <h4 className="h4" >Edinburgh, Scotland, United Kingdom</h4>
             <h4 className="h4" >2012-2013</h4>
             <button name="showMuseumOfEdinburgh" className="buttons expand-buttons" onClick={this.handleExpand}>{this.state.showMuseumOfEdinburgh === false ? "+ more" : "- less"} </button>
             {this.state.showMuseumOfEdinburgh === true ? 
               <div className="resume-bullet-points-div" >
-                <p className="resume-bullet-points" >• Handled a variety of objects.</p>
-                <p className="resume-bullet-points" >• Marked and accessioned books, clothing, metal, and wooden objects.</p>
-                <p className="resume-bullet-points" >• Basic conservation tasks including cleaning and condition checking.</p>
-                <p className="resume-bullet-points" >• Learned about different systems of museum governance.</p>
+                <p className="resume-bullet-points" >• Used conservation knowledge to correctly and safely handle a variety of historical objects.</p>
+                <p className="resume-bullet-points" >• Marked and accessioned books, clothing, metal, and wooden objects in a non-permanent way, according to current museum standards.</p>
+                <p className="resume-bullet-points" >• Completed basic conservation tasks including cleaning and condition checking to ensure the continued preservation of objects.</p>
+                <p className="resume-bullet-points" >• Learned about different systems of museum governance in order to better understand operations.</p>
               </div>
               :
               null
@@ -112,16 +118,18 @@ class WorkExperience extends React.Component {
           </div>
 
           <div className="individual-resume-divs" >
-            <h2 className="h2-standard" >Tour Guide</h2>
+            <h2 className="h2-standard individual-resume-divs-headers" >Tour Guide</h2>
             <h3 className="h3" >University of Glasgow Student Representative Council</h3>
+            <h4 className="h4" >Glasgow, Scotland, United Kingdom</h4>
             <h4 className="h4" >2011-2012</h4>
             <button name="showStudentRepresentativeCouncil" className="buttons expand-buttons" onClick={this.handleExpand}>{this.state.showStudentRepresentativeCouncil === false ? "+ more" : "- less"} </button>
             {this.state.showStudentRepresentativeCouncil === true ? 
               <div className="resume-bullet-points-div" >
-                <p className="resume-bullet-points" >• Independently gave tours to both large and small groups.</p>
+                <p className="resume-bullet-points" >• Learned about the history of the University of Glasgow so as to be able to give interesting and informative tours.</p>
+                <p className="resume-bullet-points" >• Adapted tour style in order to be able to cater to both large and small groups.</p>
+                <p className="resume-bullet-points" >• Conducted historical research using the University of Glasgow archival services and developed new plans for specialized tours.</p>
+                <p className="resume-bullet-points" >• Gathered feedback so as to continually improve tours and visitor experience.</p>
                 <p className="resume-bullet-points" >• Participated in training new tour guides.</p>
-                <p className="resume-bullet-points" >• Researched using the University of Glasgow archival services for specialised tours.</p>
-                <p className="resume-bullet-points" >• Gathered feedback.</p>
               </div>
               :
               null

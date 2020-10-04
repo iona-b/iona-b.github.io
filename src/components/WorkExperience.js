@@ -13,7 +13,7 @@ class WorkExperience extends React.Component {
 
   handleExpand = (event) => {
     this.setState ({
-      [event.target.name] : !this.state[event.target.name]
+      [event.target.id] : !this.state[event.target.id]
     })
   }
 
@@ -25,13 +25,13 @@ class WorkExperience extends React.Component {
   
           <h2 className="h2" >Work Experience</h2>
           
-          <div className="individual-resume-divs" >
+          <div className="individual-resume-divs" id="showMarketHallCaterers" onClick={this.handleExpand} >
             
-            <h2 className="h2-standard individual-resume-divs-headers" >Catering Specialist</h2>
-            <h3 className="h3" >Market Hall Caterers</h3>
-            <h4 className="h4" >Oakland, California, USA</h4>
-            <h4 className="h4" >2019-2020</h4>
-            <button name="showMarketHallCaterers" className="buttons expand-buttons" onClick={this.handleExpand}>{this.state.showMarketHallCaterers === false ? "+ more" : "- less"} </button>
+            <h2 className="h2-standard individual-resume-divs-headers" id="showMarketHallCaterers" onClick={this.handleExpand} >Catering Specialist</h2>
+            <h3 className="h3" id="showMarketHallCaterers" onClick={this.handleExpand} >Market Hall Caterers</h3>
+            <h4 className="h4" id="showMarketHallCaterers" onClick={this.handleExpand} >Oakland, California, USA</h4>
+            <h4 className="h4" id="showMarketHallCaterers" onClick={this.handleExpand} >2019-2020</h4>
+            <button id="showMarketHallCaterers" className="buttons expand-buttons" onClick={this.handleExpand} >{this.state.showMarketHallCaterers === false ? "+ more" : "- less"} </button>
             {this.state.showMarketHallCaterers === true ? 
               <div className="resume-bullet-points-div" >
                 <p className="resume-bullet-points" >• Created faster inter-departmental order processing by automating reporting, thereby maximizing order management capabilities.</p>
@@ -47,12 +47,12 @@ class WorkExperience extends React.Component {
 
           </div>
   
-          <div className="individual-resume-divs" >
-            <h2 className="h2-standard individual-resume-divs-headers" >Office Administrator and Accounting Assistant</h2>
-            <h3 className="h3" >San Francisco Box Office</h3>
-            <h4 className="h4" >San Francisco, California, USA</h4>
-            <h4 className="h4" >2018-2019</h4>
-            <button name="showSanFranciscoBoxOffice" className="buttons expand-buttons" onClick={this.handleExpand}>{this.state.showSanFranciscoBoxOffice === false ? "+ more" : "- less"} </button>
+          <div className="individual-resume-divs" id="showSanFranciscoBoxOffice" onClick={this.handleExpand} >
+            <h2 className="h2-standard individual-resume-divs-headers" id="showSanFranciscoBoxOffice" onClick={this.handleExpand} >Office Administrator and Accounting Assistant</h2>
+            <h3 className="h3" id="showSanFranciscoBoxOffice" onClick={this.handleExpand} >San Francisco Box Office</h3>
+            <h4 className="h4" id="showSanFranciscoBoxOffice" onClick={this.handleExpand} >San Francisco, California, USA</h4>
+            <h4 className="h4" id="showSanFranciscoBoxOffice" onClick={this.handleExpand} >2018-2019</h4>
+            <button id="showSanFranciscoBoxOffice" className="buttons expand-buttons" onClick={this.handleExpand} >{this.state.showSanFranciscoBoxOffice === false ? "+ more" : "- less"} </button>
             {this.state.showSanFranciscoBoxOffice === true ? 
               <div className="resume-bullet-points-div" >
                 <p className="resume-bullet-points" >• Managed a multi-million dollar inventory, including buying, pricing, and selling, in order to maximize profit.</p>
@@ -65,12 +65,12 @@ class WorkExperience extends React.Component {
             }
           </div>
 
-          <div className="individual-resume-divs" >
-            <h2 className="h2-standard individual-resume-divs-headers" >Language Coach</h2>
-            <h3 className="h3" >Berlitz</h3>
-            <h4 className="h4" >Ghent, Flanders, Belgium</h4>
-            <h4 className="h4" >2014-2017</h4>
-            <button name="showBerlitz" className="buttons expand-buttons" onClick={this.handleExpand}>{this.state.showBerlitz === false ? "+ more" : "- less"} </button>
+          <div className="individual-resume-divs" id="showBerlitz" onClick={this.handleExpand} >
+            <h2 className="h2-standard individual-resume-divs-headers" id="showBerlitz" onClick={this.handleExpand} >Language Coach</h2>
+            <h3 className="h3" id="showBerlitz" onClick={this.handleExpand} >Berlitz</h3>
+            <h4 className="h4" id="showBerlitz" onClick={this.handleExpand} >Ghent, Flanders, Belgium</h4>
+            <h4 className="h4" id="showBerlitz" onClick={this.handleExpand} >2014-2017</h4>
+            <button id="showBerlitz" className="buttons expand-buttons" onClick={this.handleExpand} >{this.state.showBerlitz === false ? "+ more" : "- less"} </button>
             {this.state.showBerlitz === true ? 
               <div className="resume-bullet-points-div" >
                 <p className="resume-bullet-points" >• Created audience-appropriate lesson plans based on client assessment and feedback in order to optimize students' learning experience and capabilities.</p>
@@ -83,12 +83,12 @@ class WorkExperience extends React.Component {
             }
           </div>
 
-          <div className="individual-resume-divs" >
-            <h2 className="h2-standard individual-resume-divs-headers" >Student Intern</h2>
-            <h3 className="h3" >AMSAB Institute for Social History</h3>
-            <h4 className="h4" >Ghent, Flanders, Belgium</h4>
-            <h4 className="h4" >2016-2017</h4>
-            <button name="showAMSAB" className="buttons expand-buttons" onClick={this.handleExpand}>{this.state.showAMSAB === false ? "+ more" : "- less"} </button>
+          <div className="individual-resume-divs" id="showAMSAB" onClick={this.handleExpand} >
+            <h2 className="h2-standard individual-resume-divs-headers" id="showAMSAB" onClick={this.handleExpand} >Student Intern</h2>
+            <h3 className="h3" id="showAMSAB" onClick={this.handleExpand} >AMSAB Institute for Social History</h3>
+            <h4 className="h4" id="showAMSAB" onClick={this.handleExpand} >Ghent, Flanders, Belgium</h4>
+            <h4 className="h4" id="showAMSAB" onClick={this.handleExpand} >2016-2017</h4>
+            <button id="showAMSAB" className="buttons expand-buttons" onClick={this.handleExpand} >{this.state.showAMSAB === false ? "+ more" : "- less"} </button>
             {this.state.showAMSAB === true ? 
               <div className="resume-bullet-points-div" >
                 <p className="resume-bullet-points" >• Utilized archiving skills to effectively plan and archive a professoral collection.</p>
@@ -99,12 +99,12 @@ class WorkExperience extends React.Component {
             }
           </div>
 
-          <div className="individual-resume-divs" >
-            <h2 className="h2-standard individual-resume-divs-headers" >Student Intern</h2>
-            <h3 className="h3" >Museum of Edinburgh</h3>
-            <h4 className="h4" >Edinburgh, Scotland, United Kingdom</h4>
-            <h4 className="h4" >2012-2013</h4>
-            <button name="showMuseumOfEdinburgh" className="buttons expand-buttons" onClick={this.handleExpand}>{this.state.showMuseumOfEdinburgh === false ? "+ more" : "- less"} </button>
+          <div className="individual-resume-divs" id="showMuseumOfEdinburgh" onClick={this.handleExpand} >
+            <h2 className="h2-standard individual-resume-divs-headers" id="showMuseumOfEdinburgh" onClick={this.handleExpand} >Student Intern</h2>
+            <h3 className="h3" id="showMuseumOfEdinburgh" onClick={this.handleExpand} >Museum of Edinburgh</h3>
+            <h4 className="h4" id="showMuseumOfEdinburgh" onClick={this.handleExpand} >Edinburgh, Scotland, United Kingdom</h4>
+            <h4 className="h4" id="showMuseumOfEdinburgh" onClick={this.handleExpand} >2012-2013</h4>
+            <button id="showMuseumOfEdinburgh" className="buttons expand-buttons" onClick={this.handleExpand} >{this.state.showMuseumOfEdinburgh === false ? "+ more" : "- less"} </button>
             {this.state.showMuseumOfEdinburgh === true ? 
               <div className="resume-bullet-points-div" >
                 <p className="resume-bullet-points" >• Used conservation knowledge to correctly and safely handle a variety of historical objects.</p>
@@ -117,12 +117,12 @@ class WorkExperience extends React.Component {
             }
           </div>
 
-          <div className="individual-resume-divs" >
-            <h2 className="h2-standard individual-resume-divs-headers" >Tour Guide</h2>
-            <h3 className="h3" >University of Glasgow Student Representative Council</h3>
-            <h4 className="h4" >Glasgow, Scotland, United Kingdom</h4>
-            <h4 className="h4" >2011-2012</h4>
-            <button name="showStudentRepresentativeCouncil" className="buttons expand-buttons" onClick={this.handleExpand}>{this.state.showStudentRepresentativeCouncil === false ? "+ more" : "- less"} </button>
+          <div className="individual-resume-divs" id="showStudentRepresentativeCouncil" onClick={this.handleExpand} >
+            <h2 className="h2-standard individual-resume-divs-headers" id="showStudentRepresentativeCouncil" onClick={this.handleExpand} >Tour Guide</h2>
+            <h3 className="h3" id="showStudentRepresentativeCouncil" onClick={this.handleExpand} >University of Glasgow Student Representative Council</h3>
+            <h4 className="h4" id="showStudentRepresentativeCouncil" onClick={this.handleExpand} >Glasgow, Scotland, United Kingdom</h4>
+            <h4 className="h4" id="showStudentRepresentativeCouncil" onClick={this.handleExpand} >2011-2012</h4>
+            <button id="showStudentRepresentativeCouncil" className="buttons expand-buttons" onClick={this.handleExpand} >{this.state.showStudentRepresentativeCouncil === false ? "+ more" : "- less"} </button>
             {this.state.showStudentRepresentativeCouncil === true ? 
               <div className="resume-bullet-points-div" >
                 <p className="resume-bullet-points" >• Learned about the history of the University of Glasgow so as to be able to give interesting and informative tours.</p>

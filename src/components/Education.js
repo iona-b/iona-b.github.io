@@ -50,7 +50,7 @@ class Education extends React.Component {
                   <p className="resume-bullet-points indented" ><span role="img" aria-labelledby="link">🔗</span> Gandr: A Ruby on Rails and JavaScript application </p>
                 </a>
                 <a href="https://github.com/iona-b/brew-flight" className="indented" rel="noopener noreferrer" target="_blank" >
-                  <p className="resume-bullet-points indented" ><span role="img" aria-labelledby="link">🔗</span> Brew Flight: A Ruby on Rails application </p>
+                  <p className="resume-bullet-points indented" ><span role="img" aria-labelledby="link">🔗</span> BrewFlight: A Ruby on Rails application </p>
                 </a>
                 <a href="https://github.com/iona-b/indoubt" className="indented" rel="noopener noreferrer" target="_blank" >
                   <p className="resume-bullet-points indented" ><span role="img" aria-labelledby="link">🔗</span> InDoubt: A Ruby Command Line Interface (CLI) application </p>

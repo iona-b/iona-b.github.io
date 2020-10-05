@@ -17,7 +17,7 @@ function Project(props) {
 
       <div className="project-divs" id="AlwaysBalanced" onClick={handleGetName} >
         <h2 className="project-div-headers" id="AlwaysBalanced" >Always Balanced</h2>
-        <p className="project-blurb" id="AlwaysBalanced" >Always Balanced is a React Application, with a Rails backend which allows users to create a personalised schedule with the aim of helping them to better balance their work and home life.</p>
+        <p className="project-blurb" id="AlwaysBalanced" >Always Balanced is a React and Redux Application, with a Rails backend which allows users to create a personalised schedule with the aim of helping them to better balance their work and home life.</p>
         <img src={require("../media/always-balanced-screenshot.png")} alt='' className="project-screenshots" id="AlwaysBalanced" />
       </div>
 

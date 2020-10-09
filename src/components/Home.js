@@ -12,7 +12,7 @@ function Home() {
       <Link to='/resume' exact className="p seven-second-animation" id="intro" >
         <p className="p seven-second-animation" id="intro" >I have experience in Ruby on Rails, JavaScript, React, Redux, and more.</p>
       </Link>
-      <p className="nine-second-animation">This website was created using React and custom CSS.</p>
+      <p className="nine-second-animation">This website was created using React.js and custom CSS.</p>
       <a href={`mailto:ionabrabender@gmail.com`} className="ten-second-animation" >
         <button className="buttons" id="get-in-touch" >Get in touch</button>
       </a>

@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.9ae8153b.chunk.css",
-    "main.js": "/static/js/main.42e53dd6.chunk.js",
-    "main.js.map": "/static/js/main.42e53dd6.chunk.js.map",
+    "main.css": "/static/css/main.baeb3a1a.chunk.css",
+    "main.js": "/static/js/main.70ff9d3c.chunk.js",
+    "main.js.map": "/static/js/main.70ff9d3c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b6e4a93e.js",
     "runtime-main.js.map": "/static/js/runtime-main.b6e4a93e.js.map",
-    "static/js/2.e4ffad32.chunk.js": "/static/js/2.e4ffad32.chunk.js",
-    "static/js/2.e4ffad32.chunk.js.map": "/static/js/2.e4ffad32.chunk.js.map",
+    "static/js/2.f4450413.chunk.js": "/static/js/2.f4450413.chunk.js",
+    "static/js/2.f4450413.chunk.js.map": "/static/js/2.f4450413.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.de9940b309afd20d2415f3ffb7130fd5.js": "/precache-manifest.de9940b309afd20d2415f3ffb7130fd5.js",
+    "precache-manifest.0cc6f7a04c64e1943b721c4cf23a24a6.js": "/precache-manifest.0cc6f7a04c64e1943b721c4cf23a24a6.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.9ae8153b.chunk.css.map": "/static/css/main.9ae8153b.chunk.css.map",
-    "static/js/2.e4ffad32.chunk.js.LICENSE.txt": "/static/js/2.e4ffad32.chunk.js.LICENSE.txt",
+    "static/css/main.baeb3a1a.chunk.css.map": "/static/css/main.baeb3a1a.chunk.css.map",
+    "static/js/2.f4450413.chunk.js.LICENSE.txt": "/static/js/2.f4450413.chunk.js.LICENSE.txt",
     "static/media/always-balanced-demo.mp4": "/static/media/always-balanced-demo.ea82f1f9.mp4",
     "static/media/always-balanced-screenshot.png": "/static/media/always-balanced-screenshot.27de698a.png",
     "static/media/bodega-bay.jpeg": "/static/media/bodega-bay.00b368c2.jpeg",
@@ -29,6 +29,8 @@
     "static/media/linkedin-icon.svg": "/static/media/linkedin-icon.c6d56df8.svg",
     "static/media/medium-icon.png": "/static/media/medium-icon.b001f73b.png",
     "static/media/new-york.jpeg": "/static/media/new-york.d252b2d1.jpeg",
+    "static/media/nfph-demo.mp4": "/static/media/nfph-demo.4324b4e3.mp4",
+    "static/media/nfph-screenshot.png": "/static/media/nfph-screenshot.94825d7f.png",
     "static/media/pavlova.jpeg": "/static/media/pavlova.72efe3b4.jpeg",
     "static/media/send.png": "/static/media/send.ce4838de.png",
     "static/media/skills.png": "/static/media/skills.f82dc146.png",
@@ -37,8 +39,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.b6e4a93e.js",
-    "static/js/2.e4ffad32.chunk.js",
-    "static/css/main.9ae8153b.chunk.css",
-    "static/js/main.42e53dd6.chunk.js"
+    "static/js/2.f4450413.chunk.js",
+    "static/css/main.baeb3a1a.chunk.css",
+    "static/js/main.70ff9d3c.chunk.js"
   ]
 }

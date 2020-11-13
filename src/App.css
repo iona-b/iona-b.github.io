@@ -368,6 +368,7 @@ html, body {
 .project-screenshots {
   width: 100%;
   border-radius: 10px;
+  filter: grayscale(0.7);
 }
 
 .project-divs:hover {

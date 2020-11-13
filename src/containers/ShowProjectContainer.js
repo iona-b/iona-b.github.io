@@ -2,6 +2,7 @@ import React from 'react';
 import AlwaysBalanced from '../components/AlwaysBalanced'
 import FruitQuest from '../components/FruitQuest'
 import Gandr from '../components/Gandr'
+import NFPH from '../components/NFPH'
 
 function ShowProjectContainer(props) {
 
@@ -28,6 +29,14 @@ function ShowProjectContainer(props) {
       {props.currentlyShowing === "Gandr" ? 
         <div className="components project-containers" >
           <Gandr  />
+        </div>
+        :
+        null
+      }
+
+      {props.currentlyShowing === "NFPH" ? 
+        <div className="components project-containers" >
+          <NFPH  />
         </div>
         :
         null

@@ -3,6 +3,7 @@ import React from 'react';
 class VolunteerExperience extends React.Component {
 
   state = {
+    showCodeTenderloin: false,
     showCohenBrayHouse: false,
     showNationalTrustForScotland: false
   }
@@ -17,9 +18,28 @@ class VolunteerExperience extends React.Component {
 
     return (
 
+
+
       <div className="one-second-animation" >
   
           <h2 className="h2" >Volunteer Experience</h2>
+
+          <div className="individual-resume-divs" id="showCodeTenderloin" onClick={this.handleExpand} >
+            <h2 className="h2-standard individual-resume-divs-headers" id="showCodeTenderloin" onClick={this.handleExpand} >Coding Tutor</h2>
+            <h3 className="h3" id="showCodeTenderloin" onClick={this.handleExpand} >Code Tenderloin</h3>
+            <h4 className="h4" id="showCodeTenderloin" onClick={this.handleExpand} >San Francisco, California, USA</h4>
+            <h4 className="h4" id="showCodeTenderloin" onClick={this.handleExpand} >2020-Present</h4>
+            <button id="showCodeTenderloin" className="buttons expand-buttons" onClick={this.handleExpand} >{this.state.showCodeTenderloin === false ? "+ more" : "- less"} </button>
+            {this.state.showCodeTenderloin === true ? 
+              <div className="resume-bullet-points-div" >
+                <p className="resume-bullet-points" >• Providing 1:1 sessions where I support the student by answering code-related questions, supplementing learning, and providing advice.</p>
+                <p className="resume-bullet-points" >• Code Tenderloin is a workforce development non-profit that aims to secure long-term employment for underserved communities in San Francisco.</p>
+              </div>
+              :
+              null
+            }
+
+          </div>
           
           <div className="individual-resume-divs" id="showCohenBrayHouse" onClick={this.handleExpand} >
             <h2 className="h2-standard individual-resume-divs-headers" id="showCohenBrayHouse" onClick={this.handleExpand} >Volunteer</h2>

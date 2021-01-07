@@ -11,45 +11,8 @@ import NotFound from './components/NotFound'
 class App extends React.Component {
 
   state = {
-    // isMobile: false,
-    // showMenu: false,
     forceUpdate: false
   }
-
-  // componentDidMount() {
-  //   if (window.innerWidth <= 864 || window.innerHeight <= 420) {
-  //     this.setState ({
-  //       isMobile: true,
-  //       showMenu: false
-  //     })
-  //   } else {
-  //     this.setState ({
-  //       isMobile: false,
-  //       showMenu: false
-  //     })
-  //   }
-  // }
-
-  // handleResize = () => {
-  //   if (window.innerWidth <= 864 || window.innerHeight <= 420) {
-  //     this.setState ({
-  //       isMobile: true,
-  //       showMenu: false
-  //     }) 
-  //   } else {
-  //     this.setState ({
-  //       isMobile: false,
-  //       showMenu: false
-  //     })
-  //   }
-  // }
-
-  // handleShowMenu = (event) => {
-  //   this.setState ({
-  //     showMenu: !this.state.showMenu
-  //   })
-  //   this.handleForceUpdateTrue()
-  // }
 
   handleForceUpdateTrue = () => {
     this.setState ({
@@ -74,8 +37,6 @@ class App extends React.Component {
     return (
 
       <div>
-
-        {/* {this.state.isMobile === false ?  */}
 
         <div className="homepage">
     
@@ -119,78 +80,6 @@ class App extends React.Component {
     
         </div>
 
-        {/* :
-
-        <div className="homepage" > 
-
-          <div id="navbar">   
-            <NavLink to='/' exact className="navbar-links" >
-              <img src={require("./media/logo.png")} alt='' id="logo" />
-            </NavLink>     
-            <button id="menu-button" onClick={this.handleShowMenu}>
-              ☰
-            </button>
-          </div > 
-          
-          <div id="social-links-div">
-            <a href="https://github.com/iona-b" rel="noopener noreferrer" target="_blank" >
-              <img src={require("./media/github-icon.svg")} alt='' className="icons" />
-            </a><br></br>
-            <a href="https://www.linkedin.com/in/iona-brabender" rel="noopener noreferrer" target="_blank" >
-              <img src={require("./media/linkedin-icon.svg")} alt='' className="icons" />
-            </a><br></br>
-            <a href="https://dev.to/ionab" rel="noopener noreferrer" target="_blank" >
-              <img src={require("./media/dev.to-icon.svg")} alt='' className="icons" />
-            </a><br></br>
-            <a href={`mailto:ionabrabender@gmail.com`} >
-              <img src={require("./media/email.svg")} alt='' className="icons" />
-            </a>
-          </div>     
-    
-          <Switch>
-            <Route exact path='/' component={HomeContainer} />
-            <Route exact path='/about' component={this.renderAboutContainer} />
-            <Route exact path='/projects' component={this.renderProjectsContainer} />
-            <Route exact path='/resume' component={this.renderResumeContainer} />
-            <Route exact path='/contact' component={Contact} />
-            <Route component={NotFound}/>
-          </Switch>
-        
-        </div>
-
-        } */}
-
-        {/* {this.state.showMenu === true ?
-
-          <div id="menu" >
-
-            <div className="menu-link-divs" > 
-              <div className="menu-links" >Menu</div>
-            </div> 
-            <div className="menu-link-divs" > 
-              <NavLink to='/' exact className="menu-links" onClick={this.handleShowMenu} >01. Home</NavLink>
-            </div> 
-            <div className="menu-link-divs" > 
-              <NavLink to='/projects' exact className="menu-links"  onClick={this.handleShowMenu} >02. Projects</NavLink>
-            </div> 
-            <div className="menu-link-divs" > 
-              <NavLink to='/resume' exact className="menu-links"  onClick={this.handleShowMenu} >03. Résumé</NavLink>
-            </div> 
-            <div className="menu-link-divs" > 
-              <NavLink to='/about' exact className="menu-links"  onClick={this.handleShowMenu} >04. About</NavLink>
-            </div> 
-            <div className="menu-link-divs" > 
-              <NavLink to='/contact' exact className="menu-links"  onClick={this.handleShowMenu}>05. Contact</NavLink>
-            </div>
-
-          </div>
-
-          :
-
-          null
-
-        }
-       */}
       </div>
     
     );

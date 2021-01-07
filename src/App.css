@@ -24,7 +24,6 @@ html, body {
   min-width: 800px;
 }
 
-
 #logo {
   width: 65px;
   position: fixed;
@@ -44,38 +43,6 @@ html, body {
 
 .navbar-links:hover {
   color: #61B329;
-}
-
-/* #menu {
-  width: 100%;
-  height: 100vh;
-  z-index: 9999;
-  position: absolute;
-  overflow-y: scroll;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-
-.menu-link-divs {
-  width: 100%;
-  height: 16.5%;
-  background-color: #ffde59;
-  border: solid;
-  display: flex;
-  justify-content: center;
-} */
-
-/* .menu-link-divs:hover {
-  background-color: black;
-}
-
-.menu-links {
-  text-decoration: none;
-  font-size: 50px;
-  color: black;
-  margin-top: 3%;
 }
 
 .menu-links:hover {
@@ -220,21 +187,6 @@ html, body {
   color: #FCF1A1;
   z-index: 4;
 }
-
-/* #menu-button {
-  background: #ffde59;
-  border: none;
-  outline: none;
-  font-size: 75px;
-  position: fixed;
-  right: 10px;
-  top: 10px;
-}
-
-#menu-button:hover {
-  color: #61B329;
-  cursor: pointer;
-} */
 
 .expand-buttons {
   width: 20%;

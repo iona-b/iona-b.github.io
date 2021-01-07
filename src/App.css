@@ -1,6 +1,6 @@
 /* Body Styling */
 
-html, body {
+html, body, #homepage {
   background: #ffde59;
   height: 100%;
   width: 100%;
@@ -9,6 +9,7 @@ html, body {
   text-align: center;
   font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono", monospace;
   color: black;
+  min-height: 100vh;
 }
 
 
@@ -49,15 +50,12 @@ html, body {
 /* Side Bar Styling */
 
 #social-links-div {
-  position: fixed;
-  bottom: 30px;
-  left: 0;
   z-index: 1;
-  height: 100%;
-  min-height: 550px;
   width: 50px;
   display: flex;
   flex-direction: column-reverse;
+  min-height: 75vh;
+  margin-top: 150px;
 }
 
 .icons {
@@ -206,6 +204,10 @@ html, body {
 
 
 /* Home Styling */
+
+#homepage {
+  min-height: 100vh;
+}
 
 #home-div {
   text-align: left;

@@ -43,7 +43,7 @@ html, body, #homepage {
 }
 
 .navbar-links:hover {
-  color: #61B329;
+  color: #71eeb8;
 }
 
 
@@ -156,7 +156,7 @@ html, body, #homepage {
 }
 
 .buttons:hover {
-  color: #61B329;
+  color: #71eeb8;
   cursor: pointer;
 }
 
@@ -177,7 +177,7 @@ html, body, #homepage {
   color: white;
   right: 0;
   top: 8%;
-  color: #FCF1A1;
+  color: #71eeb8;
   z-index: 4;
 }
 
@@ -191,6 +191,10 @@ html, body, #homepage {
   outline: none;
   margin-top: 2%;
   font-size: 15px;
+}
+
+.expand-buttons:hover {
+  color: black;
 }
 
 #get-in-touch {
@@ -240,7 +244,6 @@ html, body, #homepage {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  /* margin-left: 80px; */
 }
 
 
@@ -304,7 +307,6 @@ html, body, #homepage {
 }
 
 .project-div-headers {
-  color: black;
   height: 10%;
   text-decoration: none;
   margin-bottom: 5%;
@@ -321,7 +323,7 @@ html, body, #homepage {
 }
 
 .project-divs:hover {
-  background: #FCF1A1;
+  background: #71eeb8;
   cursor: pointer;
   filter: none;
 }
@@ -410,7 +412,7 @@ html, body, #homepage {
 
 .resume-divs:hover {
   cursor: pointer;
-  background: #FCF1A1;
+  background: #71eeb8;
 }
 
 .resume-headings {
@@ -451,7 +453,7 @@ html, body, #homepage {
 }
 
 .individual-resume-divs:hover {
-  background: #FCF1A1;
+  background: #71eeb8;
   cursor: pointer;
 }
 

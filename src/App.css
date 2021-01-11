@@ -296,6 +296,7 @@ html, body, #homepage {
   display: grid;
   width: 40%;
   min-width: 400px;
+  filter: grayscale(0.7);
 }
 
 #projects-container {
@@ -317,12 +318,12 @@ html, body, #homepage {
 .project-screenshots {
   width: 100%;
   border-radius: 10px;
-  filter: grayscale(0.7);
 }
 
 .project-divs:hover {
   background: #FCF1A1;
   cursor: pointer;
+  filter: none;
 }
 
 .project-containers {

@@ -1,7 +1,7 @@
 # Iona Brabender
-## [Portfolio Website](ionabrabender.com)
-### [ionabrabender.com](ionabrabender.com)
+## [Portfolio Website](https://ionabrabender.com/)
+### [ionabrabender.com](https://ionabrabender.com/)
 
 This is the repository for Iona Brabender's portfolio website.<br></br>
-You can access this site at [ionabrabender.com](ionabrabender.com).<br></br>
+You can access this site at [ionabrabender.com](https://ionabrabender.com/).<br></br>
 This website was created using React and custom CSS.

@@ -40,11 +40,11 @@ class App extends React.Component {
           <NavLink to='/' exact className="navbar-links" >
               <img src={require("./media/logo.png")} alt='' id="logo" />
           </NavLink>     
-          <NavLink to='/contact' exact className="navbar-links" >05. Contact</NavLink>
-          <NavLink to='/about' exact className="navbar-links" onClick={this.handleForceUpdateTrue} >04. About</NavLink>
-          <NavLink to='/resume' exact className="navbar-links" onClick={this.handleForceUpdateTrue} >03. Résumé</NavLink>
-          <NavLink to='/projects' exact className="navbar-links" onClick={this.handleForceUpdateTrue} >02. Projects</NavLink>
-          <NavLink to='/' exact className="navbar-links" >01. Home</NavLink>
+          <NavLink to='/#/contact' exact className="navbar-links" >05. Contact</NavLink>
+          <NavLink to='/#/about' exact className="navbar-links" onClick={this.handleForceUpdateTrue} >04. About</NavLink>
+          <NavLink to='/#/resume' exact className="navbar-links" onClick={this.handleForceUpdateTrue} >03. Résumé</NavLink>
+          <NavLink to='/#/projects' exact className="navbar-links" onClick={this.handleForceUpdateTrue} >02. Projects</NavLink>
+          <NavLink to='/#/' exact className="navbar-links" >01. Home</NavLink>
         </div >
   
         <div id="social-links-div">

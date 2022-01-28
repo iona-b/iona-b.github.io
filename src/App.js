@@ -67,10 +67,10 @@ class App extends React.Component {
   
         <Switch>
           <Route exact path='/' component={HomeContainer} />
-          <Route exact path='/about' component={this.renderAboutContainer} />
-          <Route exact path='/projects' component={this.renderProjectsContainer} />
-          <Route exact path='/resume' component={this.renderResumeContainer} />
-          <Route exact path='/contact' component={Contact} />
+          <Route exact path='/#/about' component={this.renderAboutContainer} />
+          <Route exact path='/#/projects' component={this.renderProjectsContainer} />
+          <Route exact path='/#/resume' component={this.renderResumeContainer} />
+          <Route exact path='/#/contact' component={Contact} />
           <Route component={NotFound}/>
         </Switch>
   

@@ -7,8 +7,8 @@ const Game = () => {
     const [gameFinished, setGameFinished] = React.useState(false);
     const [resetGrid, setResetGrid] = React.useState(true);
 
-    const numbersAndLettersArray: string[] = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
-    const [numbersAndLetters, setNumbersAndLetters] = React.useState<string[]>(numbersAndLettersArray);
+    const numbersAndLettersArray  = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
+    const [numbersAndLetters, setNumbersAndLetters] = React.useState(numbersAndLettersArray);
 
     const words = ["APPLE", "APRICOT", "AVOCADO", "BANANA", "BEET", "BLACKBERRY", "BLUEBERRY", "BROCCOLI", "BRUSSELS", "SPROUT", "CABBAGE", "CANTALOUPE", "CARROT", "CAULIFLOWER", "CELERY", "CHERRY", "CLEMENTINE", "CORN", "CUCUMBER", "DRAGONFRUIT", "EGGPLANT", "ELDERBERRY", "FIG", "GARLIC", "GRAPE", "GRAPEFRUIT", "GUAVA", "HONEYDEW", "JALAPENO", "KALE", "KIWI", "LEEK", "LEMON", "LETTUCE", "LIME", "MANDARIN", "MANGO", "NECTARINE", "OKRA", "OLIVE", "ONION", "ORANGE", "PAPAYA", "PARSNIP", "PEACH", "PEAR", "PEPPER", "PINEAPPLE", "PLANTAIN", "PLUM", "POMEGRANATE", "POTATO", "PUMPKIN", "RADICCHIO", "RADISH", "RAISIN", "RASPBERRY", "RHUBARB", "ROMAINE", "SCALLION", "SHALLOT", "SPINACH", "SQUASH", "STRAWBERRY", "POTATO", "TANGERINE", "TOMATO", "TURNIP", "WATERCRESS", "WATERMELON", "YAM", "SQUASH", "ZUCCHINI", "ARTICHOKE", "ASPARAGUS", "BUTTERNUT", "CACTUS", "GOOSEBERRY", "CARDAMOM", "CASHEW", "CHAYOTE", "CHICKPEA", "CHICORY", "CRANBERRY", "DANDELION", "DURIAN", "ENDIVE", "FEIJOA", "FIDDLEHEAD", "GINGER", "JACKFRUIT", "JICAMA", "KOHLRABI", "LOTUS", "LYCHEE", "MALANGA", "BEAN", "CABBAGE", "OKRAH", "PAPRIKA", "PEANUT", "RADICCHIO", "SALSIFY", "SAPOTE", "PEPPER", "TARO", "TOMATILLO", "TURMERIC", "WASABI", "YUZU"]
 
@@ -18,7 +18,7 @@ const Game = () => {
 
     const [timer, setTimer] = React.useState(0);
     
-    const getTime = (timer: number) => {
+    const getTime = (timer) => {
         const minutes = Math.floor(timer / 60);
         const seconds = timer % 60;
         const minutesString = minutes < 10 ? `0${minutes}` : `${minutes}`;
@@ -28,7 +28,7 @@ const Game = () => {
     };
 
     React.useEffect(() => {
-        let interval: any = null;
+        let interval = null;
         if (gameInProgress) {
             interval = setInterval(() => {
                 setTimer((timer) => timer + 1);
@@ -39,7 +39,7 @@ const Game = () => {
         return () => clearInterval(interval);
     }, [gameInProgress]);
 
-    const randomiseArray = (array: string[]) => {
+    const randomiseArray = (array) => {
         let currentIndex = array.length, temporaryValue, randomIndex;
         while (0 !== currentIndex) {
             randomIndex = Math.floor(Math.random() * currentIndex);
@@ -52,8 +52,8 @@ const Game = () => {
         return array;
     };
 
-    const splitArray = (array: string[]) => {
-        const gridArray: string[][] = [];
+    const splitArray = (array) => {
+        const gridArray = [];
         for (let i = 0; i < array.length; i += 6) {
             gridArray.push(array.slice(i, i + 6));
         }
@@ -73,7 +73,7 @@ const Game = () => {
         return generateRows(splitArray(numbersAndLetters));
     };
 
-    const generateRows = (array: string[][]) => {
+    const generateRows = (array) => {
         return array.map((row, index) => {
             return (
                 <div key={index} className='row'>
@@ -83,7 +83,7 @@ const Game = () => {
         });
     };
 
-    const generateColumns = (array: string[]) => {
+    const generateColumns = (array) => {
         return array.map((column, index) => {
             return (
                 <button key={index} className='game-button' value={column} onClick={handleClick}>
@@ -101,8 +101,8 @@ const Game = () => {
         setCurrentAnswer('');
     };
 
-    const handleClick = (e: React.MouseEvent<HTMLButtonElement>) => {
-        const value = e.currentTarget.value;
+    const handleClick = (event) => {
+        const value = event.currentTarget.value;
         setCurrentAnswer(currentAnswer + value);
     };
 

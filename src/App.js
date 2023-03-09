@@ -3,6 +3,7 @@ import {Route, Switch, NavLink} from 'react-router-dom'
 import './App.css';
 import AboutContainer from './containers/AboutContainer'
 import HomeContainer from './containers/HomeContainer'
+import Game from './components/Game.tsx'
 import ProjectsContainer from './containers/ProjectsContainer'
 import ResumeContainer from './containers/ResumeContainer'
 import Contact from './containers/ContactContainer'
@@ -71,6 +72,7 @@ class App extends React.Component {
           <Route exact path='/projects' component={this.renderProjectsContainer} />
           <Route exact path='/resume' component={this.renderResumeContainer} />
           <Route exact path='/contact' component={Contact} />
+          <Route exact path='/game' component={Game} />
           <Route component={NotFound}/>
         </Switch>
   

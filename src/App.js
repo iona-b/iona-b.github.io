@@ -3,7 +3,7 @@ import {Route, Switch, NavLink} from 'react-router-dom'
 import './App.css';
 import AboutContainer from './containers/AboutContainer'
 import HomeContainer from './containers/HomeContainer'
-import Game from './components/Game.tsx'
+import Game from './components/Game'
 import ProjectsContainer from './containers/ProjectsContainer'
 import ResumeContainer from './containers/ResumeContainer'
 import Contact from './containers/ContactContainer'

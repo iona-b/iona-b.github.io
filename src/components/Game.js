@@ -12,8 +12,8 @@ const Game = () => {
 
     const words = ["APPLE", "APRICOT", "AVOCADO", "BANANA", "BEET", "BLACKBERRY", "BLUEBERRY", "BROCCOLI", "BRUSSELS", "SPROUT", "CABBAGE", "CANTALOUPE", "CARROT", "CAULIFLOWER", "CELERY", "CHERRY", "CLEMENTINE", "CORN", "CUCUMBER", "DRAGONFRUIT", "EGGPLANT", "ELDERBERRY", "FIG", "GARLIC", "GRAPE", "GRAPEFRUIT", "GUAVA", "HONEYDEW", "JALAPENO", "KALE", "KIWI", "LEEK", "LEMON", "LETTUCE", "LIME", "MANDARIN", "MANGO", "NECTARINE", "OKRA", "OLIVE", "ONION", "ORANGE", "PAPAYA", "PARSNIP", "PEACH", "PEAR", "PEPPER", "PINEAPPLE", "PLANTAIN", "PLUM", "POMEGRANATE", "POTATO", "PUMPKIN", "RADICCHIO", "RADISH", "RAISIN", "RASPBERRY", "RHUBARB", "ROMAINE", "SCALLION", "SHALLOT", "SPINACH", "SQUASH", "STRAWBERRY", "POTATO", "TANGERINE", "TOMATO", "TURNIP", "WATERCRESS", "WATERMELON", "YAM", "SQUASH", "ZUCCHINI", "ARTICHOKE", "ASPARAGUS", "BUTTERNUT", "CACTUS", "GOOSEBERRY", "CARDAMOM", "CASHEW", "CHAYOTE", "CHICKPEA", "CHICORY", "CRANBERRY", "DANDELION", "DURIAN", "ENDIVE", "FEIJOA", "FIDDLEHEAD", "GINGER", "JACKFRUIT", "JICAMA", "KOHLRABI", "LOTUS", "LYCHEE", "MALANGA", "BEAN", "CABBAGE", "OKRAH", "PAPRIKA", "PEANUT", "RADICCHIO", "SALSIFY", "SAPOTE", "PEPPER", "TARO", "TOMATILLO", "TURMERIC", "WASABI", "YUZU"]
 
-    const [currentWord, setCurrentWord] = React.useState<string>('');
-    const [currentAnswer, setCurrentAnswer] = React.useState<string>('');
+    const [currentWord, setCurrentWord] = React.useState('');
+    const [currentAnswer, setCurrentAnswer] = React.useState('');
     const [correctAnswers, setCorrectAnswers] = React.useState(0);
 
     const [timer, setTimer] = React.useState(0);

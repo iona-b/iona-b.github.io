@@ -99,6 +99,7 @@ const Game = () => {
         setResetGrid(true);
         setCorrectAnswers(0);
         setCurrentAnswer('');
+        setTimer(0);
     };
 
     const handleClick = (event) => {

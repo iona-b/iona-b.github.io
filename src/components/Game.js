@@ -7,7 +7,7 @@ const Game = () => {
     const [gameFinished, setGameFinished] = React.useState(false);
     const [resetGrid, setResetGrid] = React.useState(true);
 
-    const numbersAndLettersArray  = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
+    const numbersAndLettersArray = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
     const [numbersAndLetters, setNumbersAndLetters] = React.useState(numbersAndLettersArray);
 
     const words = ["APPLE", "APRICOT", "AVOCADO", "BANANA", "BEET", "BLACKBERRY", "BLUEBERRY", "BROCCOLI", "BRUSSELS", "SPROUT", "CABBAGE", "CANTALOUPE", "CARROT", "CAULIFLOWER", "CELERY", "CHERRY", "CLEMENTINE", "CORN", "CUCUMBER", "DRAGONFRUIT", "EGGPLANT", "ELDERBERRY", "FIG", "GARLIC", "GRAPE", "GRAPEFRUIT", "GUAVA", "HONEYDEW", "JALAPENO", "KALE", "KIWI", "LEEK", "LEMON", "LETTUCE", "LIME", "MANDARIN", "MANGO", "NECTARINE", "OKRA", "OLIVE", "ONION", "ORANGE", "PAPAYA", "PARSNIP", "PEACH", "PEAR", "PEPPER", "PINEAPPLE", "PLANTAIN", "PLUM", "POMEGRANATE", "POTATO", "PUMPKIN", "RADICCHIO", "RADISH", "RAISIN", "RASPBERRY", "RHUBARB", "ROMAINE", "SCALLION", "SHALLOT", "SPINACH", "SQUASH", "STRAWBERRY", "POTATO", "TANGERINE", "TOMATO", "TURNIP", "WATERCRESS", "WATERMELON", "YAM", "SQUASH", "ZUCCHINI", "ARTICHOKE", "ASPARAGUS", "BUTTERNUT", "CACTUS", "GOOSEBERRY", "CARDAMOM", "CASHEW", "CHAYOTE", "CHICKPEA", "CHICORY", "CRANBERRY", "DANDELION", "DURIAN", "ENDIVE", "FEIJOA", "FIDDLEHEAD", "GINGER", "JACKFRUIT", "JICAMA", "KOHLRABI", "LOTUS", "LYCHEE", "MALANGA", "BEAN", "CABBAGE", "OKRAH", "PAPRIKA", "PEANUT", "RADICCHIO", "SALSIFY", "SAPOTE", "PEPPER", "TARO", "TOMATILLO", "TURMERIC", "WASABI", "YUZU"]
@@ -17,7 +17,7 @@ const Game = () => {
     const [correctAnswers, setCorrectAnswers] = React.useState(0);
 
     const [timer, setTimer] = React.useState(0);
-    
+
     const getTime = (timer) => {
         const minutes = Math.floor(timer / 60);
         const seconds = timer % 60;
@@ -115,6 +115,7 @@ const Game = () => {
             if (correctAnswers + 1 >= 5) {
                 setGameInProgress(false);
                 setGameFinished(true);
+                setTimer(0);
             }
         } else {
             alert('Incorrect!');
